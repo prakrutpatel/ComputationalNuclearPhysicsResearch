@@ -1,0 +1,73 @@
+ENTRY            O0079     970121              20050926       0000
+SUBENT        O0079001     970121              20050926       0000
+BIB                  9         26
+TITLE      Substate Excitation of 2+ States Produced by Inelastic
+           Scattering of Protons on C-12,Fe-54 and Ni-58.
+AUTHOR     (J.R.TESMER,F.H.SCHMIDT)
+HISTORY    (950220C)
+           (960819A) Corrections For All Subentries to Lower Case.
+           (970121U) Last checking has been done.
+INSTITUTE  (1USAWAU)
+REFERENCE  (J,PR/C,5,864,72)
+DETECTOR   (SOLST).The Scattered Protons were Detected with an
+           Array of Five 2.95-Mm-Thick Lithium-Drifted Silicon
+           Detectors.The Detecter Array was Operated at Liquid-
+           Nitrogen Temperatures.
+           (NAICR).Two Gamma Detectors were Employed-An Rca 7046
+           Photomultiplier Coupled to a 10-Cm-Diam by 10-Cm-Long
+           Nai(TL) Crystal was Used For the C-12 and Ni-58
+           Targets,and an Rca 4522 Coupled to a 12.7-Cm-Diam by
+            10-Cm-Long Nai(TL) Crystal was Used For the Fe-54
+           Target.
+FACILITY   (VDGT,1USAWAU).The Proton Beam Used in these
+           Experiments was Produced by the University of
+           Washington Three-Stage Tandem Van De Graaff
+           Accelerator.
+METHOD     (SITA)
+ADD-RES    (COMP).Collective-Model Distorted-Wave Born-
+           Approximation.
+           Theory of the Measurements.
+ENDBIB              26
+NOCOMMON
+ENDSUBENT           29
+SUBENT        O0079002     970121              20050926       0000
+BIB                  4          6
+REACTION   (6-C-12(P,EL)6-C-12,,DA,,,EXP)
+SAMPLE     The C-12 Target was a Self-Supporting Natural Carbon
+           Foil, Thickness Approximately 0.7 Mg/Cm**2.
+ERR-ANALYS (ANG-ERR).Data-Point Reader Uncertainty.
+           (DATA-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD from Figure 4.
+ENDBIB               6
+COMMON               3          3
+EN         ANG-ERR    DATA-ERR
+MEV        ADEG       PER-CENT
+        20.        0.7        2.3
+ENDCOMMON            3
+DATA                 2         21
+ANG-CM     DATA
+ADEG       MB/SR
+       32.9       333.
+       42.3      102.5
+       59.3        18.
+        64.       17.7
+       73.3       21.1
+       84.6       22.2
+        94.       18.9
+       98.7       15.1
+      105.7       13.8
+      115.1        11.
+      124.9       8.53
+      129.6         8.
+      136.2        6.2
+       139.        6.2
+      148.4       6.82
+      153.1       7.27
+      154.9       7.27
+      159.6       8.53
+      159.6        9.5
+      164.3         9.
+      167.6        10.
+ENDDATA             23
+ENDSUBENT           38
+ENDENTRY             2

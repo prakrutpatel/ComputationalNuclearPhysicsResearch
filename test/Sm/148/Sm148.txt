@@ -1,0 +1,6 @@
+Sm148
+True
+0.00    0+
+62
+148
+Rotational

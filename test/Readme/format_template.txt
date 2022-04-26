@@ -1,0 +1,21 @@
+#Template file needs to follow a specific format, with precise number of
+#whitespace as the fortran program is format specific
+#This is an example of format
+
+    4 500          1
+0.050       18.00                1.e-06    1.e-06    1.e-06
+    0    0
+ 3.00   1-  3.74
+    1    1
+ 2.00   1+  3.90
+    1    2
+ 5.00   1-  4.49
+    1    3
+   3    0  .361
+  .3610      .361    .361      .3610      .3610     .361     .361
+    2    0  .107
+  .1070      .107    .1070      .1070      .1070     .107     .107
+    5    0  .191
+  .1910      .191    .1910      .1910      .1910     .191     0.191
+   2.00000   1.00000   180.000
+fin

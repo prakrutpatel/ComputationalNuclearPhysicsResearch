@@ -1,0 +1,85 @@
+TITLE      A comparative study of the 13C(p,p')13C and            E1695001    3
+           13C(p,n)13N reactions at Ep=35 MeV                     E1695001    4
+AUTHOR     (H.Ohnuma, B.A.Brown, D.Dehnhard, K.Furukawa,          E1695001    5
+           T.Hasegawa, S.Hayakawa, N.Hoshino, K.Ieki, M.Kabasawa, E1695001    6
+           K.Maeda, K.Miura, K.Muto, T.Nakagawa, K.Nisimura,      E1695001    7
+           H.Orihara, T.Suehiro, T.Tohei, M.Yasue)                E1695001    8
+INSTITUTE  (2JPNTIT) Department of Physics                        E1695001    9
+           (1USAMSU) National Superconducting Cyclotron           E1695001   10
+                     Laboratory                                   E1695001   11
+           (1USAMIN) School of Physics and Astronomy              E1695001   12
+           (2JPNTOH) Department of Physics                        E1695001   13
+           (2JPNTOK) Institute for Nuclear Study                  E1695001   14
+           (2JPNAIT)                                              E1695001   15
+           (2JPNTOH) College of General Education                 E1695001   16
+           (2JPNTOI)                                              E1695001   17
+           (2JPNTOH) Cyclotron and Radioisotope Center            E1695001   18
+REFERENCE  (J,NP/A,456,(1),61,198608)                             E1695001   19
+SAMPLE     - Target enrichment is 99%.                            E1695001   20
+           - Chemical-form of target is element.                  E1695001   21
+           - Physical-form of target is solid.                    E1695001   22
+           - Target is self supported.                            E1695001   23
+HISTORY    (19980506T) Oa. Converted from NRDF D1695              E1695001   24
+           (20060330A) Am + On. Re-compiled and re-digitized.     E1695001   25
+                       Rutherford ratio added.                    E1695001   26
+ENDBIB              24                                            E1695001   27
+COMMON               1          3                                 E1695001   28
+EN                                                                E1695001   29
+MEV                                                               E1695001   30
+ 35.                                                              E1695001   31
+ENDCOMMON            3                                            E1695001   32
+ENDSUBENT           31                                            E169500199999
+SUBENT        E1695002   20060713   20060908                  E037E1695002    1
+BIB                 12         16                                 E1695002    2
+REACTION   (6-C-13(P,EL)6-C-13,,DA,,RTH)                          E1695002    3
+PART-DET   (P)                                                    E1695002    4
+EN-SEC     ANG-CM is polar angle between beam and proton in       E1695002    5
+           center of mass system                                  E1695002    6
+INC-SOURCE (POLIS)                                                E1695002    7
+SAMPLE     Target-thickness is 0.5 mg/cm**2.                      E1695002    8
+METHOD     (EDE)                                                  E1695002    9
+FACILITY   (CYCLO,2JPNTOK) SF cyclotron at Institute for Nuclear  E1695002   10
+                           Study                                  E1695002   11
+DETECTOR   (MAGSP) To analyze momentum of outgoing protons        E1695002   12
+           (SWPC,PROPC,SCIN) To detect outgoing protons           E1695002   13
+ERR-ANALYS (ERR-1) Maximum uncertainty in the absolute magnitude  E1695002   14
+                   of cross sections                              E1695002   15
+ADD-RES    (COMP) Optical model                                   E1695002   16
+PART-DET   (P)                                                    E1695004    4
+EN-SEC     ANG-CM is polar angle between beam and proton in       E1695004    5
+           center of mass system                                  E1695004    6
+INC-SOURCE (POLIS)                                                E1695004    7
+SAMPLE     Target-thickness is 0.5 mg/cm**2.                      E1695004    8
+METHOD     (EDE)                                                  E1695004    9
+FACILITY   (CYCLO,2JPNTOK) SF cyclotron at Institute for Nuclear  E1695004   10
+                           Study                                  E1695004   11
+DETECTOR   (MAGSP) To analyze momentum of outgoing protons        E1695004   12
+           (SWPC,PROPC,SCIN) To detect outgoing protons           E1695004   13
+ADD-RES    (COMP) Optical model                                   E1695004   14
+STATUS     (CURVE) Data scanned from Fig.2, p65 in reference      E1695004   15
+HISTORY    (20040405A) On. PAR in SF5 and E-LVL=0.0 MEV deleted   E1695004   16
+ENDBIB              14                                            E1695004   17
+NOCOMMON             0          0                                 E1695004   18
+DATA                 2         17                                 E1695004   19
+ANG-CM     DATA-CM                                                E1695004   20
+ADEG       NO-DIM                                                 E1695004   21
+  1.074E+01  4.993E-02                                            E1695004   22
+  1.642E+01  9.396E-03                                            E1695004   23
+  2.155E+01 -3.114E-02                                            E1695004   24
+  2.668E+01 -6.799E-02                                            E1695004   25
+  3.254E+01 -1.122E-01                                            E1695004   26
+  3.786E+01 -1.527E-01                                            E1695004   27
+  4.262E+01 -1.250E-01                                            E1695004   28
+  4.807E+01  2.293E-01                                            E1695004   29
+  5.316E+01  6.814E-01                                            E1695004   30
+  5.864E+01  7.608E-01                                            E1695004   31
+  6.322E+01  7.036E-01                                            E1695004   32
+  7.386E+01  5.229E-01                                            E1695004   33
+  8.431E+01  3.994E-01                                            E1695004   34
+  9.438E+01  4.124E-01                                            E1695004   35
+  1.041E+02  6.616E-01                                            E1695004   36
+  1.139E+02  8.776E-01                                            E1695004   37
+  1.235E+02  8.408E-01                                            E1695004   38
+ENDDATA             19                                            E1695004   39
+ENDSUBENT           38                                            E169500499999
+ENDENTRY             4                                            E169599999999

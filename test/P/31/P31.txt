@@ -1,0 +1,6 @@
+P31
+True
+0.50    0+
+15
+31
+Rotational

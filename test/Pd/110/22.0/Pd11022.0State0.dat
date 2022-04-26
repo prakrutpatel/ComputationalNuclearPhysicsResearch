@@ -1,0 +1,91 @@
+ENTRY            E0833   20080131   20080131   20080131       E051
+SUBENT        E0833001   20080131   20080131   20080131       E051
+BIB                 10         19
+TITLE      Elastic and inelastic scattering of polarized protons
+           from the isotopes 104,106,108,110Pd
+AUTHOR     (Y.Aoki, H.Iida, K.Hashimoto, K.Nagano, M.Takei,
+           Y.Toba, K.Yagi)
+INSTITUTE  (2JPNTSU)
+REFERENCE  (J,NP/A,394,(3),413,198302)
+           Main reference. See also TITLE and AUTHOR.
+           (T,NAGANO,1982) K.Nagano, Numerical data
+PART-DET   (P)
+INC-SOURCE Beam intensity is 100 nA.
+SAMPLE     - Chemical-form of target is element.
+           - Physical-form of target is solid.
+           - Target is self supported.
+FACILITY   (VDGT,2JPNTSU) 12UD Pelletron
+DETECTOR   Solid angle of detector is 2.0 msr.
+           (MAGSP,SWPC) To momentum analyze and detect scattered
+                        protons
+HISTORY    (19881025T) On. Converted from NRDF D0833
+           (20070316T) On. Re-converted from NRDF D0833
+ENDBIB              19
+COMMON               1          3
+EN
+MEV
+ 22.0
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        E0833011   20080131   20080131   20080131       E051
+BIB                  6          9
+REACTION   (46-PD-110(P,EL)46-PD-110,,DA)
+EN-SEC     ANG-CM is polar angle between beam and proton in
+           center of mass system
+SAMPLE     - Target enrichment is 97.73%.
+           - Target-thickness is 2.26 mg/cm**2.
+ERR-ANALYS (ERR-S) Statistical uncertainty
+ADD-RES    (COMP) Optical model (Code ELAST)
+STATUS     (TABLE) Data (Fig.4, p417 in main reference) taken
+                   from doctor thesis of K.Nagano
+ENDBIB               9
+COMMON               1          3
+E-RSL
+KEV
+ 65.
+ENDCOMMON            3
+DATA                 3         39
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      MB/SR
+ 20.2       4133.8     0.1
+ 25.2       1782.3     0.1
+ 30.3       725.9      0.2
+ 35.3       297.1      0.1
+ 37.8       197.2      0.2
+ 40.3       136.4      0.1
+ 42.9       95.40      0.4
+ 45.4       69.94      0.2
+ 50.4       43.54      0.3
+ 52.9       39.00      0.2
+ 55.4       38.33      0.3
+ 57.9       37.74      0.2
+ 60.5       37.34      0.3
+ 65.5       31.42      0.3
+ 70.5       20.16      0.3
+ 73.0       14.17      0.4
+ 75.5       9.069      0.4
+ 78.0       5.492      0.6
+ 80.5       3.276      0.8
+ 83.0       2.427      0.9
+ 85.5       2.656      0.9
+ 88.0       3.364      0.8
+ 90.5       4.331      0.5
+ 95.5       5.452      0.4
+ 100.5      4.926      0.5
+ 105.5      3.334      0.5
+ 108.0      2.437      0.8
+ 110.5      1.642      0.8
+ 113.0      1.063      1.3
+ 115.5      0.642      1.2
+ 120.5      0.442      1.5
+ 122.9      0.529      1.0
+ 125.4      0.655      1.2
+ 127.9      0.840      0.8
+ 130.4      0.930      1.0
+ 135.4      1.009      1.0
+ 140.3      0.868      1.1
+ 145.3      0.607      1.3
+ 150.3      0.438      1.5
+ENDDATA             41
+ENDSUBENT           59
+ENDENTRY             2

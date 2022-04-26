@@ -1,0 +1,26 @@
+#Format for script
+#Outputs .eps files at 4k res at 600 dpi
+#Number of output files will be the same as no of betas
+
+./opm.sh <potential.py> <Element> <Energy> <Template.inp> <plotter.py>
+
+
+potential.py - python program that solve for potential
+
+Element - Element name with mass number ex Ca40, Fe54
+
+Template.inp - template file used
+
+plotter.py - python program that plots data from ecis file
+
+
+For batch run use multi.py
+
+python3 multi.py <batch file>
+
+batch file example-
+Ca40 17.3
+C12 24.1
+Cd112 20.0
+end
+

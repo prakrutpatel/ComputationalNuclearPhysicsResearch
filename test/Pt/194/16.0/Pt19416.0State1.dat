@@ -1,0 +1,85 @@
+ENTRY            O0246     970101              20050926       0000
+SUBENT        O0246001     970101              20050926       0000
+BIB                 14         36
+TITLE      Elastic and Inelastic Proton Scattering from Heavy
+           Collective Nuclei.
+AUTHOR     (T.KRUSE,W.MAKOFSKE,H.OGATA,W.SAVIN,M.SLAGOWITZ,
+           M.WILLIAMS)
+INSTITUTE  (1USARUT)
+           (1USARPI)
+REFERENCE  (J,NP/A,169,177,71)
+REL-REF    (N,,P.STOLER+,J,PR,155,1334,67) The Results Measuring
+           Scattering from Sm Isotopes, Which are Quoted in
+           Reference.
+HISTORY    (960924C)
+           (961230A)
+           (970101U) Last checking has been done.
+SAMPLE     Highly Enriched Thin Targets of Ho-165,Yb-172,174,176,
+           W-182,184,186,Os-188,190,192 and Pt-194,198 were
+           Produced by Evaporating the Metal from the Oxide Form,
+           And Depositing It on a Thin Carbon Film.The Thickness
+           Of the Metal Deposited Varied from About 50 to 100
+           Mug/Cm**2,Depending Upon the Target.
+ADD-RES    (COMP).Optical Model,DWBA and Coupled-Channel Analyses.
+           (POT) Optical Model Parameters.
+           Quadrupole Deformation Parameters.
+DETECTOR   (SOLST). Cooled Si(LI) Detectors were Used.
+FACILITY   (VDGT,1USARUT)
+COMMENT    /by Compiler/.The Energies of the First 2+ State were
+           Getting by Compiler from ENSDF-96.
+METHOD     (SITA)
+           The Resulting Angular Distributions were Converted to
+           Absolute Cross Sections by Normalizing with Respect to
+           Angular Distributions Taken at 5 MeV Incident Proton
+           Energy, with the Identical Experimental Configurations
+           S in the 16 MeV Runs. The 5 MeV Data were Assumed to be
+           Purely Rutherford.
+           (EXTB)
+ERR-ANALYS (ANG-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD.
+ENDBIB              36
+COMMON               1          3
+EN
+MEV
+        16.
+ENDCOMMON            3
+ENDSUBENT           43
+SUBENT        O0246016     970101              20050926       0000
+BIB                  4          4
+REACTION   (78-PT-194(P,INL)78-PT-194,PAR,DA,,,EXP)
+EN-SEC     (E-LVL,78-PT-194)
+LEVEL-PROP (78-PT-194,E-LVL=0.328453,SPIN=2.,PARITY=+1.)
+ERR-ANALYS (DATA-ERR).Data-Point Reader Uncertainty.
+ENDBIB               4
+COMMON               3          3
+E-LVL      ANG-ERR    DATA-ERR
+MEV        ADEG       PER-CENT
+   0.328453        0.5        2.8
+ENDCOMMON            3
+DATA                 2         21
+ANG-CM        DATA
+ADEG       MB/SR
+       46.2       2.23
+       51.5       1.78
+        56.       1.94
+       59.2       1.97
+       65.6        2.3
+       70.7       2.49
+       75.3       2.36
+       80.8       2.17
+        85.       2.21
+       88.5       1.29
+        95.       1.26
+      100.5       1.29
+      104.7       1.39
+      109.8       1.42
+      114.3       1.65
+      119.5       1.69
+       124.       1.52
+      129.2       1.55
+       135.       1.59
+      138.9       1.62
+      143.4       1.65
+ENDDATA             23
+ENDSUBENT           36
+ENDENTRY             2

@@ -1,0 +1,6 @@
+Gd158
+True
+0.00    0+
+64
+158
+Rotational

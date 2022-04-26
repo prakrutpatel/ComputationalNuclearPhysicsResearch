@@ -1,0 +1,73 @@
+/Email.py/1.2/Thu Dec  3 23:17:12 2020//
+/__init__.py/1.1/Wed Jan 20 22:45:49 2021//
+/all_bad_removed.inp/1.1/Tue Feb  2 20:43:15 2021//
+/all_orig.inp/1.1/Mon Jan 25 20:55:13 2021//
+/batch.sh/1.1/Fri Jun 19 13:50:50 2020//
+/beta_changer.py/1.2/Thu Jan 21 17:47:33 2021//
+/coefficients_fit/1.3/Tue Jan 19 20:57:25 2021//
+/ecis_tallys_06.f/1.3/Fri Jan 15 21:39:14 2021//
+/emailer.py/1.3/Tue Jul  7 18:54:13 2020//
+/encrypt_code.py/1.1/Tue Dec  1 21:19:00 2020//
+/multi_final.py/1.6/Mon Jun  7 20:46:59 2021//
+/opm_final.sh/1.7/Mon Jun  7 20:46:59 2021//
+/potential_final.py/1.12/Thu Jan 21 17:47:33 2021//
+/results_final_default.txt/1.3/Tue Jan 19 20:57:25 2021//
+/results_final_default_fit.txt/1.3/Tue Jan 19 20:57:25 2021//
+/results_final_default_reactioncs.txt/1.3/Tue Jan 19 20:57:25 2021//
+/results_final_no_mod_image_scale_one_half.txt/1.1/Tue Feb  2 20:43:15 2021//
+/var_switcher_final.py/1.3/Thu Jan 21 17:47:33 2021//
+/wrkplot_final.py/1.8/Mon Jan 11 22:01:11 2021//
+D/Al////
+D/C////
+D/Ca////
+D/Ca40_17.3////
+D/Cd////
+D/Cl////
+D/Cr////
+D/Dy////
+D/Fe////
+D/Gd////
+D/Ho////
+D/K////
+D/Mg////
+D/N////
+D/Ne////
+D/O////
+D/Os////
+D/P////
+D/Pd////
+D/Pt////
+D/Readme////
+D/Sc////
+D/Se////
+D/Si////
+D/Sm////
+D/Sn////
+D/Ta////
+D/Ti////
+D/Tl////
+D/W////
+D/Yb////
+D/Zn////
+D/Zr////
+D/ecis_templates////
+D/run_data////
+/test.sh/1.5/Sun Jun 20 20:10:42 2021//
+/opm.sh/1.40/Thu Jun 24 20:44:34 2021//
+/var_switcher.py/1.44/Tue Jun 29 14:23:55 2021//
+/multi.py/1.28/Tue Jul 13 20:20:19 2021//
+/wrkplot.py/1.47/Tue Jul 13 20:20:19 2021//
+D/F////
+D/Na////
+D/Ga////
+D/Cs////
+D/Ba////
+/runs.sh/1.1/Sat Jul 24 23:34:33 2021//
+/ifunc.py/1.1/Wed Jul 28 19:47:45 2021//
+D/As////
+/analysis.py/1.11/Wed Aug  4 02:26:43 2021//
+/log.sh/1.16/Wed Aug  4 02:26:43 2021//
+/all.inp/1.34/Wed Aug  4 02:36:13 2021//
+D/Lu////
+/potential.py/1.77/Wed Aug  4 02:42:44 2021//
+D/Hg////

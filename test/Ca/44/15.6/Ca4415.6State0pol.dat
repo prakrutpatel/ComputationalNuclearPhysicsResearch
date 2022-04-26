@@ -1,0 +1,88 @@
+ENTRY            O0239     961111              20050926       0000
+SUBENT        O0239001     961111              20050926       0000
+BIB                 14         41
+TITLE      Nuclear Sizes in Ca-40,44,48.
+AUTHOR     (J.C.LOMBARDI,R.N.BOYD,R.ARKING,A.B.ROBBINS)
+INSTITUTE  (1USARUT)
+REFERENCE  (J,NP/A,188,103,72)
+HISTORY    (960921C)
+           (961110A) Some Corrections For Bib-Sections.
+           (961111U) Last checking has been done.
+INC-SOURCE (LAMB) 55% Polarized Beam on Target.
+SAMPLE     The Targets Used were About 3 Mg/Cm**2 Which
+           Corresponds  to an Energy Loss of 80-100 KeV.The Ca-40,
+           Ca-44  Targets  were  99.99%  and  98.5%   Isotopically
+           Enriched, Respectively. The Ca-48 Target had a 3.6%
+           Ca-40 Impurity.
+COMMENT    /by Authors/.To Determine the Normalizations of Our
+           Cross-Section Data We Used Targets of 1 Mg/Cm**2 or
+           Loss and Measured the Yield at 4.00 MeV Where the
+           Scattering is Rutherford at Forward Angles.These
+           Normalizations are Estimated to be Accurate to Within
+            10 %.It was Found That the Nuclear Size Determinations
+           Were Relatively Insensitive to Normalization.
+ADD-RES    (COMP).Optical-Model Analyses.
+           (POT)
+           Excitation Functions For the Elastic Scattering of
+           Protons from 48-Ca at the Laboratory Angles 125, 150
+           And 165 Degree, and in the Energy Range 10.5-17 MeV.
+           Mean Square Radii of the Effective Nucleon-Nucleon
+           Interaction in 40, 44, 48-Ca.
+DETECTOR   (SILI).2 mm Si(LI) Detectors were Used.
+FACILITY   (VDGT,1USARUT)
+METHOD     (SITA)
+           2 mm Si(LI) Detectors in a Left-Right Configuration
+           Were Used in Order to Measure Assymmetry.
+ERR-ANALYS The Statistical Uncertainties in the Cross Section
+           Data  are  1%. Relative Errors of 2% were Assigned For
+           The  Optical-Model Analyses to Account For Angular
+           Misalignments. Errors Assigned to the Analyzing-Power
+           Data are Statistical and Include the  Uncertainties in
+           The Measured Beam  Polarization. Typical Errors For
+           These Data are 2%.
+           (ANG-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD.
+ENDBIB              41
+NOCOMMON
+ENDSUBENT           44
+SUBENT        O0239009     961111              20050926       0000
+BIB                  2          2
+REACTION   (20-CA-44(P,EL)20-CA-44,,POL/DA,,ANA,EXP) Figure 3
+ERR-ANALYS (DATA-ERR).Data-Point Reader Uncertainty.
+ENDBIB               2
+COMMON               3          3
+EN         ANG-ERR    DATA-ERR
+MEV        ADEG       NO-DIM
+      15.61        0.4      0.015
+ENDCOMMON            3
+DATA                 2         25
+ANG-CM     DATA
+ADEG       NO-DIM
+       41.5      0.191
+       46.9   0.88E-01
+       52.1     -0.119
+       55.9     -0.284
+       61.3     -0.387
+       66.8     -0.593
+       72.2     -0.697
+       76.5     -0.903
+       80.5     -0.129
+        86.      0.439
+       91.5      0.336
+       96.9      0.129
+      100.9   0.26E-01
+       105.      -0.18
+      110.4     -0.325
+      115.9     -0.428
+      121.3      -0.49
+      125.7     -0.284
+      131.1     -0.635
+      134.9     -0.696
+      140.4     -0.335
+       146.      0.129
+      150.4      0.398
+       157.      0.645
+      162.4      0.749
+ENDDATA             27
+ENDSUBENT           38
+ENDENTRY             2

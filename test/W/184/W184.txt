@@ -1,0 +1,6 @@
+W184
+True
+0.00    0+
+74
+184
+Rotational

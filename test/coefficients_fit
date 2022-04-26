@@ -1,0 +1,27 @@
+Jan 3rd 2021
+
+REal
+
+Real Surface_final = sqrt(Beta)*(1.27361+0.401383*A-0.000562824*A^2)+ Re Surf_initial
+
+Imaginary Surfce Final = sqrt(Beta)*(-19.1228-0.0557952*A+0.000108386*A^2)+ Im Surf_initial
+
+January 11th 2021
+
+Real Surface Final = Beta*(51.5071+1.00016*A+0.0460269*A^2-0.000171237*A^3) + Re_Surf_0
+
+Image Surface final = Beta*(-6.23222-4.88572*A+0.014116*A^2) + Im Surface_0
+
+
+January 14th, 2021
+
+Real Surface Final = Beta*(53.6707+0.859101*A+0.049561*A^2-0.000192498*A^3) + Re_Surf_0
+
+Image Surface final = Beta*(-19.3223-3.68983*A-0.00425168*A^2+0.00006964*A^3) + Im Surface_0
+
+
+January 19th, 2021
+
+Real Surface Final = Beta*(34.5775+2.66384*A+0.0179569*A^2-0.000082700*A^3) + Re_Surf_0
+
+Image Surface final = SQRT(Beta)*(-8.69164-0.0367497*A-0.00275055*A^2+0.000013281*A^3) + Im Surface_0

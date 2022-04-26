@@ -1,0 +1,99 @@
+BIB                 12         18                                 O0083001    2
+TITLE      SYSTEMATICAL 'ANOMALOUS' FEATURES OF PROTON ELASTIC    O0083001    3
+           SCATTERING RELATED TO SHELL STRUCTURE.                 O0083001    4
+AUTHOR     (E.COLOMBO,R.DE LEO,J.L.ESCUDIE,E.FABRICI,S.MICHELETTI,O0083001    5
+           M.PIGNANELLI,F.RESMINI)                                O0083001    6
+INSTITUTE  (2ITYMIL)                                              O0083001    7
+           (2ITYBAU)                                              O0083001    8
+           (2FR SAC)                                              O0083001    9
+REFERENCE  (C,77TOKYO,,543,77).PUBLISHED AS JPJ SUPPL.,44,543,78. O0083001   10
+HISTORY    (950222C)                                              O0083001   11
+           (950320U)                                              O0083001   12
+SAMPLE     .NO INFORMATION AVAILABLE.                             O0083001   13
+DETECTOR   .NO INFORMATION AVAILABLE.                             O0083001   14
+FACILITY   (CYCLO,2ITYMIL)                                        O0083001   15
+METHOD     ANY INFORMATION IS ABSENT.                             O0083001   16
+ADD-RES    (COMP).OPTICAL MODEL.                                  O0083001   17
+STATUS     (CURVE).BY CAJAD.                                      O0083001   18
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0083001   19
+           (DATA-ERR).DATA-POINT READER UNCERTAINTY.              O0083001   20
+ENDBIB              18                                            O0083001   21
+NOCOMMON             0          0                                 O0083001   22
+ENDSUBENT           21                                            O008300199999
+SUBENT        O0083004     950223                                 O0083004    1
+BIB                  1          1                                 O0083004    2
+REACTION   (7-N-15(P,EL)7-N-15,,DA,,RTH,EXP)                      O0083004    3
+ENDBIB               1                                            O0083004    4
+COMMON               3          3                                 O0083004    5
+EN         ANG-ERR    DATA-ERR                                    O0083004    6
+MEV        ADEG       PER-CENT                                    O0083004    7
+       39.2        0.6        2.1                                 O0083004    8
+ENDCOMMON            3                                            O0083004    9
+DATA                 2         27                                 O0083004   10
+ANG-CM     DATA                                                   O0083004   11
+ADEG       NO-DIM                                                 O0083004   12
+       12.4       1.97                                            O0083004   13
+       23.1       16.2                                            O0083004   14
+       28.9       21.6                                            O0083004   15
+        33.       19.7                                            O0083004   16
+       39.2      12.44                                            O0083004   17
+       43.7       8.73                                            O0083004   18
+       49.5      10.03                                            O0083004   19
+       53.6       14.5                                            O0083004   20
+       60.2       19.7                                            O0083004   21
+       64.3        23.                                            O0083004   22
+       68.8       21.6                                            O0083004   23
+       78.3      12.44                                            O0083004   24
+       84.9       9.15                                            O0083004   25
+       89.5       7.84                                            O0083004   26
+       94.8       6.72                                            O0083004   27
+      101.4       7.84                                            O0083004   28
+      105.5       7.49                                            O0083004   29
+      107.2       6.72                                            O0083004   30
+      113.8       4.95                                            O0083004   31
+       122.       3.99                                            O0083004   32
+      127.8       1.97                                            O0083004   33
+      131.9       2.29                                            O0083004   34
+      140.2       3.99                                            O0083004   35
+      147.2       5.42                                            O0083004   36
+      152.5       6.32                                            O0083004   37
+      159.5       5.32                                            O0083004   38
+      164.9       4.08                                            O0083004   39
+ENDDATA             29                                            O0083004   40
+ENDSUBENT           39                                            O008300499999
+SUBENT        O0083005     950223                                 O0083005    1
+BIB                  1          1                                 O0083005    2
+REACTION   (7-N-14(P,EL)7-N-14,,DA,,,EXP)                         O0083005    3
+ENDBIB               1                                            O0083005    4
+COMMON               3          3                                 O0083005    5
+EN         ANG-ERR    DATA-ERR                                    O0083005    6
+MEV        ADEG       PER-CENT                                    O0083005    7
+       35.2        0.5        2.1                                 O0083005    8
+ENDCOMMON            3                                            O0083005    9
+DATA                 2         22                                 O0083005   10
+ANG-CM     DATA                                                   O0083005   11
+ADEG       MB/SR                                                  O0083005   12
+       43.2       771.                                            O0083005   13
+       49.2       288.                                            O0083005   14
+       56.1       194.                                            O0083005   15
+       63.2       186.                                            O0083005   16
+        69.       184.                                            O0083005   17
+       73.6      131.1                                            O0083005   18
+       78.8      104.1                                            O0083005   19
+       83.7        68.                                            O0083005   20
+       88.8       36.6                                            O0083005   21
+       93.2        22.                                            O0083005   22
+      105.4      10.76                                            O0083005   23
+      110.2       8.79                                            O0083005   24
+      117.2       6.96                                            O0083005   25
+       131.       3.91                                            O0083005   26
+      133.6       4.24                                            O0083005   27
+      138.6       5.12                                            O0083005   28
+      146.1        6.7                                            O0083005   29
+       152.       7.34                                            O0083005   30
+      156.1       7.61                                            O0083005   31
+      162.9       7.54                                            O0083005   32
+      167.8       7.21                                            O0083005   33
+      171.3       6.64                                            O0083005   34
+ENDDATA             24                                            O0083005   35
+ENDSUBENT           34                                            O008300599999

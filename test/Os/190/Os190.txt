@@ -1,0 +1,6 @@
+Os190
+True
+0.00    0+
+76
+190
+Rotational

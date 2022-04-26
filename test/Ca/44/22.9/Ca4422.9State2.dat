@@ -1,0 +1,87 @@
+ENTRY            O0440   20000426   20030424   20050926       0000
+SUBENT        O0440001   20000426   20030424   20050926       0000
+BIB                 12         24
+TITLE      Inelastic Proton Scattering from Ca-42 and Ca-44 and
+           Analysis in Terms of Shell-Model Form Factors.
+AUTHOR     (J.C.BANE,J.J.KRAUSHAAR,B.W.RIDLEY,M.M.STAUTBERG)
+INSTITUTE  (1USACLU)
+           (1USAKTY)
+REFERENCE  (J,NP/A,116,580,1968)
+HISTORY    (19980731C)
+           (19980829U) Last checking has been done.
+           (20000426A) DATE is corrected
+ADD-RES    (COMP).Distorted Wave Calculations Using a Collective-
+           Model Interaction.
+           (POT) Optical Model Parameters.
+           (P-SPC)
+           Deformation Parameters.
+DETECTOR   (SILI). A 3 mm Lithium-Drifted Silicon Detector.
+FACILITY   (CYCLO,1USACLU).A 132 Cm Fixed-Field Alternating-
+           Gradient Cyclotron.
+METHOD     (SITA)
+COMMENT    - By Authors - The Q-Values are Such That Only (P,D)
+           And (P,A) Reactions on Ca-42 and (P,A) Reaction on
+           Ca-44 Could Contaminate the Inelastic Spectra. None of
+           These Reactions were Observed.
+ERR-ANALYS (ANG-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD.
+ENDBIB              24
+COMMON               1          3
+EN
+MEV
+      22.85
+ENDCOMMON            3
+ENDSUBENT           31
+SUBENT        O0440005   20000426   20030424   20050926       0000
+BIB                  5         18
+REACTION   (20-CA-44(P,INL)20-CA-44,PAR,DA)
+EN-SEC     (E-LVL,20-CA-44)
+LEVEL-PROP (20-CA-44,E-LVL=1.15,SPIN=2.,PARITY=+1.)
+           (20-CA-44,E-LVL=3.31,SPIN=3.,PARITY=-1.)
+           (20-CA-44,E-LVL=2.28,SPIN=4.,PARITY=+1.)
+           (20-CA-44,E-LVL=3.92,SPIN=5.,PARITY=-1.)
+           (20-CA-44,E-LVL=2.66,SPIN=2.,PARITY=+1.)
+           (20-CA-44,E-LVL=3.69,SPIN=2.,PARITY=+1.)
+           (20-CA-44,E-LVL=4.60,SPIN=2.,PARITY=+1.)
+           (20-CA-44,E-LVL=4.39,SPIN=3.,PARITY=-1.)
+           (20-CA-44,E-LVL=1.88,SPIN=0.,PARITY=+1.)
+SAMPLE     Self-Supporting Metal Foils of Ca-44,0.42 Mg/Cm**2
+           Thickness,Composition-Ca-40-1.30%,Ca-42-0.04%,
+           Ca-43-0.04%,Ca-44-98.61%,Ca-46-Less 0.02%,Ca-48-Less
+            0.01%,were Used As Target.
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+           (DATA-ERR).Data-Point Reader Uncertainty.
+           (E-LVL-ERR) No Analysis is Present.
+ENDBIB              18
+COMMON               3          3
+E-LVL-ERR  ANG-ERR    DATA-ERR
+MEV        ADEG       PER-CENT
+       0.01        0.8        2.5
+ENDCOMMON            3
+DATA                 4        21
+ANG-CM     E-LVL      DATA-CM    ERR-T
+ADEG       MEV        MB/SR      PER-CENT
+       25.1       2.28       0.84        30.
+       30.2       2.28        0.5        16.
+        35.       2.28       0.55        11.
+        40.       2.28        0.4        10.
+       45.4       2.28       0.52         8.
+       50.8       2.28       0.47         9.
+       55.8       2.28      0.417         7.
+        58.       2.28       0.35        11.
+       63.5       2.28      0.297         8.
+       69.5       2.28      0.256         8.
+        75.       2.28      0.262         6.
+       80.4       2.28      0.269         3.
+       89.1       2.28      0.255         3.
+       94.7       2.28      0.171        12.
+      100.1       2.28      0.186         8.
+       105.       2.28      0.154         9.
+      118.7       2.28      0.144         6.
+      129.1       2.28      0.097         9.
+      138.5       2.28      0.067         7.
+      148.3       2.28      0.065         9.
+      158.6       2.28      0.064         8.
+ENDDATA            172
+ENDSUBENT          199
+ENDENTRY             2

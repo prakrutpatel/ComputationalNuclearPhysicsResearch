@@ -1,0 +1,6 @@
+Sc45
+True
+3.50    0-
+21
+45
+Rotational

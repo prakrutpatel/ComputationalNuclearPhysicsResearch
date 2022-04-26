@@ -1,0 +1,2 @@
+Element     Shape      A      Z    N  iso  Energy   Betas       Chi    Old_chi      Adj Variables       Org Variables    magnitudes - final - orig
+------------------------------------------------------------------------------------------------------------------------------------------------------

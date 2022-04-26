@@ -1,0 +1,71 @@
+ENTRY            E1677   20190107   20190401   20190318       E122
+SUBENT        E1677001   20190107   20190401   20190318       E122
+BIB                  9         18
+TITLE       a new approach to a 'model-independent' optical
+            potential and its application to proton elastic
+            scattering near the (p,n) threshold energy region
+AUTHOR     (Y.Aoki,K.Hirota,H.Kishita,K.Koyama,M.Masaki,K.Miura,
+           Y.Mukouhara,S.Nakagawa,N.Okumura,Y.Tagishi)
+INSTITUTE  (2JPNTSU)
+REFERENCE  (J,NP/A,599,417,1996)
+FACILITY   (VDGT,2JPNTSU) 12UD Pelletron
+PART-DET   (P)
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS      Data converted from NRDF
+HISTORY    (19990414T) Converted from NRDF data No. D1677
+           (20001027A) Date is corrected
+           (20040331A) Author's name is corrected.
+           (20190107A) Tada. 002-007,016-020: Data and DATA-ERR
+                       values are corrected.
+           (20190107D) Tada. 003-008 and 017-021 are merged to
+                       related subentries.
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        E1677002   20190107   20190401   20190318       E122
+BIB                  5          9
+REACTION   (14-SI-28(P,EL)14-SI-28,,DA,,RTH)
+SAMPLE      Target is natural
+            chemical-form of target is SI02
+            physical-form of target is solid
+            target-thickness=
+ERR-ANALYS (ERR-S,,5.)
+STATUS     (CURVE) Fig. 2(a) of Nucl. Phys. A599(1996)417
+HISTORY    (20190107A) Tada. DATA and DATA-ERR values are
+                       corrected. 002-008: Merged.
+ENDBIB               9
+ENDCOMMON             0          0
+DATA                 5        28
+EN         ANG-CM     DATA       +DATA-ERR  -DATA-ERR
+MEV        ADEG       NO-DIM     NO-DIM     NO-DIM
+       17.5      37.26  8.637E-01  5.596E-02 -4.345E-02
+       17.5      43.31  2.447E-01  8.262E-03 -1.233E-02
+       17.5      48.46  3.055E-01  1.266E-02 -1.107E-02
+       17.5      52.73  1.510E+00  4.522E-02 -4.393E-02
+       17.5      56.46  3.339E+00  1.127E-01 -1.209E-01
+       17.5      61.85  4.725E+00  2.141E-01 -2.046E-01
+       17.5      67.91  5.359E+00  2.014E-01 -1.941E-01
+       17.5      78.82  5.365E+00  1.201E-01 -1.752E-01
+       17.5      83.50  4.270E+00  1.279E-01 -1.394E-01
+       17.5      87.29  2.998E+00  7.840E-02 -7.642E-02
+       17.5      91.96  2.626E+00  6.872E-02 -5.749E-02
+       17.5      97.86  2.839E+00  8.505E-02 -1.029E-01
+       17.5     102.90  3.558E+00  9.307E-02 -1.415E-01
+       17.5     108.30  4.344E+00  8.087E-02 -1.264E-01
+       17.5     113.70  4.909E+00  1.470E-01 -8.972E-02
+       17.5     117.20  5.346E+00  2.009E-01 -1.363E-01
+       17.5     122.00  5.611E+00  2.325E-01 -1.833E-01
+       17.5     126.50  6.066E+00  1.587E-01 -1.981E-01
+       17.5     131.80  6.754E+00  1.005E-01 -1.722E-01
+       17.5     134.50  6.882E+00  2.325E-01 -1.258E-01
+       17.5     136.90  7.576E+00  1.411E-01 -1.107E-01
+       17.5     142.30  8.468E+00  2.535E-01 -4.262E-01
+       17.5     144.20  8.723E+00  3.949E-01 -3.779E-01
+       17.5     146.90  9.188E+00  2.058E-01 -2.672E-01
+       17.5     151.20  9.537E+00  2.857E-01 -2.431E-01
+       17.5     156.10  9.333E+00  2.441E-01 -3.048E-01
+       17.5     160.10  9.199E+00  3.813E-01 -1.347E-01
+       17.5     165.50  9.070E+00  2.716E-01 -3.609E-01
+ENDDATA            207
+ENDSUBENT          221
+ENDENTRY             2

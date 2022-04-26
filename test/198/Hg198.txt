@@ -1,0 +1,6 @@
+Hg198
+True
+0.00    0+
+118
+198
+Rotational

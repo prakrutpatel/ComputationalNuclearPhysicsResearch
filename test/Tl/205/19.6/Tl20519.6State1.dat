@@ -1,0 +1,63 @@
+ENTRY            T0291   20040129   20040422   20050926       0000
+SUBENT        T0291001   20040129   20040422   20050926       0000
+BIB                 10         13
+INSTITUTE  (1USARUT,1USABRK)
+REFERENCE  (J,NP/A,222,65,1974)
+AUTHOR     (C.Glashausser, D.L.Hendrie, E.A.McClatchie)
+TITLE      Level structure of 205Tl observed in (p,p') and
+            (p,alpha) reactions.
+FACILITY   (CYCLO,1USABRK) Berkeley 88-inch Cyclotron.
+METHOD     (BCINT)
+DETECTOR   (SILI) Four Si(Li) detectors, cooled to -20 degrees.
+ERR-ANALYS (DATA-ERR) Uncertainty read from figures.
+           Absolute cross sections accurate to about 15%.
+           (ANG-ERR-D).Data-Point Reader Uncertainty.
+STATUS     (CURVE) Scanned from figures in reference by CAJAD.
+HISTORY    (20040129C)
+ENDBIB              13
+NOCOMMON             0          0
+ENDSUBENT           16
+SUBENT        T0291002   20040129   20040422   20050926       0000
+BIB                  4          6
+REACTION   (81-TL-205(P,INL)81-TL-205,PAR,DA)
+SAMPLE     Thin evaporated metallic foil target, isotopically
+            enriched to 98.8% 205Tl; 600 to 800 microg/cm**2
+            thick.
+METHOD     Level energies calibrated using strong levels in 206Pb.
+ERR-ANALYS (ERR-DIG)  Data-Point Reader Uncertainty.
+ENDBIB               6
+COMMON               4          3
+EN         E-RSL      ANG-ERR-D  ERR-DIG
+MEV        KEV        ADEG       PER-CENT
+  19.64       25.        0.6        2.
+ENDCOMMON            3
+DATA                 4        24
+E-LVL      ANG-CM     DATA       DATA-ERR
+MEV        ADEG       MB/SR      PER-CENT
+   0.207       51.2     0.4000      7.
+   0.207       53.2     0.3950      7.
+   0.207       56.1     0.3420
+   0.207       58.8     0.2140
+   0.207       62.4     0.1960
+   0.207       65.3     0.1800
+   0.207       67.2     0.1285
+   0.207       70.3     0.1063
+   0.207       72.8     0.0988
+   0.207       75.3     0.1048
+   0.207       79.0     0.0960
+   0.207       81.0     0.1033
+   0.207       84.0     0.1230
+   0.207       87.2     0.1230
+   0.207       90.1     0.1079
+   0.207       92.5     0.1079
+   0.207       93.7     0.0988
+   0.207      100.9     0.0520
+   0.207      104.1     0.0430
+   0.207      106.9     0.0361
+   0.207      109.7     0.0312
+   0.207      120.0     0.0406
+   0.207      140.3     0.0210     10.
+   0.207      160.5     0.0308
+ENDDATA            396
+ENDSUBENT          411
+ENDENTRY             2

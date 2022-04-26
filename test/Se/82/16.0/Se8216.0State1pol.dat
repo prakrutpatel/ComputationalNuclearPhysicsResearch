@@ -1,0 +1,70 @@
+ENTRY            C0781   20010831   20011130   20050926       0000
+SUBENT        C0781001   20010831   20011130   20050926       0000
+BIB                 13         18
+INSTITUTE  (1USANCA,1USATNL)
+REFERENCE  (J,NP/A,414,113,1984)
+AUTHOR     (J.P.DELAROCHE,R.L.VARNER,T.B.CLEGG,R.E.ANDERSON,
+           B.L.BURKS,E.J.LUDWIG,J.F.WILKERSON)
+TITLE      Structure of low-lying states of 76,78,80,82Se
+            deduced from (p(pol),p') scattering at 16 MeV
+FACILITY   (ACCEL,1USATNL) Tandem electrostatic accelerator.
+INC-SOURCE (LAMB). Beam polarization typically 0.65+-0.03.
+METHOD     (BCINT)
+MONITOR    Beam polarization determined using 4He polarimeter.
+DETECTOR   (SOLST) 4 pairs of solid-state detectors placed
+            symmetrically to left and right of incident beam.
+CORRECTION Corrected for dead time
+ERR-ANALYS (ERR-S) Statistical uncertainty; in some cases, error
+            involved in background subtraction is included.
+STATUS     Data received by email from R. Varner, 26 July 2001.
+           No reply from R. Varner to author proof.
+HISTORY    (20010209C) VM
+ENDBIB              18
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+  16.00       0.05
+ENDCOMMON            3
+ENDSUBENT           25
+SUBENT        C0781017   20010730   20011130   20050926       0000
+BIB                  2          4
+REACTION   (34-SE-82(P,INL)34-SE-82,PAR,POL/DA,,ANA)
+SAMPLE     Targets of enriched 82Se (96.66%) vacuum evaporated
+            onto carbon foil backings. Target thickness 75
+            microg/cm2.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         28
+E-LVL      ANG-CM        DATA       ERR-S
+MEV        ADEG       NO-DIM     NO-DIM
+ 0.665      25.31     -0.0301     0.0233
+ 0.665      30.37     -0.0314     0.0192
+ 0.665      35.42     -0.1228     0.0118
+ 0.665      40.47     -0.1788     0.0125
+ 0.665      50.56     -0.1460     0.0173
+ 0.665      55.60     -0.0098     0.0114
+ 0.665      60.63      0.1275     0.0157
+ 0.665      65.66      0.1470     0.0130
+ 0.665      70.69      0.1313     0.0114
+ 0.665      75.71      0.1048     0.0201
+ 0.665      80.72      0.0115     0.0166
+ 0.665      85.73     -0.0198     0.0137
+ 0.665      90.73     -0.0111     0.0110
+ 0.665      95.73      0.0513     0.0168
+ 0.665     100.72      0.0778     0.0118
+ 0.665     105.71      0.0792     0.0123
+ 0.665     110.69      0.0702     0.0136
+ 0.665     115.66      0.0667     0.0108
+ 0.665     120.63      0.1281     0.0109
+ 0.665     125.60      0.1747     0.0119
+ 0.665     130.56      0.2159     0.0130
+ 0.665     135.52      0.1866     0.0090
+ 0.665     140.47      0.0399     0.0124
+ 0.665     145.42     -0.1574     0.0136
+ 0.665     150.37     -0.4177     0.0195
+ 0.665     155.31     -0.6305     0.0117
+ 0.665     160.25     -0.6711     0.0153
+ 0.665     165.19     -0.6780     0.0273
+ENDDATA             80
+ENDSUBENT           89
+ENDENTRY             2

@@ -1,0 +1,143 @@
+import numpy as np
+import numexpr as ne
+import scipy as sp
+import pandas as pd
+import matplotlib.pyplot as plt
+import sys
+from scipy.optimize import curve_fit
+from scipy.stats.stats import pearsonr
+from sklearn.metrics import r2_score
+import pingouin as pg
+import scipy as sp
+from icecream import ic
+
+guess_vd = [19.206288341364594, 0.21946687030365633, -0.00016066278747240567, -0.12870383648540673, 0.00046767273818834664, -4.1222361906811855, 2.68169537630759]
+guess_wd = [-25.924365475838037, -0.1707246168570341, 0.00033883522622240214, 0.16383660419720958, -0.0008346297441901481, 19.129527391985274, 194.60047420175152]
+
+header = ['A','Z','N','isospin','E','Betas','Chi','Mid Chi','V_d','W_d','V_d_orig','W_d_orig','Mag_orig']
+df = pd.read_csv('results_original.txt', delim_whitespace = True, usecols = [2,3,4,5,6,7,8,9,10,11,12,13,15],skipinitialspace = True,skiprows=2,skipfooter=2,engine ='python',names = header)
+
+
+length = df['A'].shape[0]-1
+std_deviation = int(length - 0.03*length)
+df.sort_values('Chi', inplace=True)
+df = df.head(std_deviation)
+dfObj_neg_values = pd.DataFrame(columns = header)
+df.sort_values(['A','E','isospin'], inplace=True)
+dfObj_neg_values = pd.concat([dfObj_neg_values, df[df['V_d'] < 0.0]])
+dfObj_neg_values = pd.concat([dfObj_neg_values, df[df['W_d'] < 0.0]])
+ic('No of negatives dropped: '+str(dfObj_neg_values.shape[0]))
+df = df.drop(df[df['V_d'] < 0.0].index)
+df = df.drop(df[df['W_d'] < 0.0].index)
+ic('Percent remaining: '+str(df.shape[0]*100/length))
+ic('Mid/Last Ratio: ' + str(df['Mid Chi'].sum()/df['Chi'].sum()))
+
+df.loc[(df['isospin'] == 'n'), 'isospin'] = -0.5
+df.loc[(df['isospin'] == 'p'), 'isospin'] = 0.5
+df['isospin'] = df['isospin'].astype(float, errors = 'raise')
+
+
+
+
+A = df['A'].tolist()
+V_d = df['V_d'].tolist()
+Betas = df['Betas']
+V_d_orig = df['V_d_orig'].tolist()
+E = df['E']
+
+#print out cvs file
+df.to_csv('results_original_trim.cvs', sep=' ')
+
+
+
+def test(A,c0,c1,c2,c3,c4,c5,c6):
+    A_Betas = np.power(Betas,0.5)
+    E_Betas = np.power(Betas,0.25)
+    w = np.power(W_d_orig,2)
+    v = np.power(V_d_orig,2)
+    w_v = np.sqrt(w+v)
+    return (A_Betas*(c0+(c1*A)+(c2*(A*A)))) + V_d_orig + (E_Betas*((c3*E)+(c4*(E*E))+(c5*(E*E*E)))) + ((A_Betas)*c6*(w_v))
+
+def test_fn(A,c0,c1,c2,c3,c4,c5,c6):
+    A_Betas = np.power(Betas,0.5)
+    E_Betas = np.power(Betas,0.25)
+    w = np.power(W_d_orig,2)
+    v = np.power(V_d_orig,2)
+    w_v = np.sqrt(w+v)
+    return ne.evaluate('(A_Betas*(c0+(c1*A)+(c2*(A*A)))) + V_d_orig + (E_Betas*((c3*E)+(c4*(E*E))+(c5*(E*E*E)))) + ((A_Betas)*c6*(w_v))')
+
+
+popt, pcov = curve_fit(test, A, V_d,guess_vd)
+df['V_d_fit'] = test_fn(A, *popt)
+df = df.assign(reducedv = (((df['V_d_fit'] - df['V_d']) ** 2)/(length-len(guess_vd))))
+ic('Reduced Chi: '+ str(df['reducedv'].sum()))
+dist_a = pearsonr(df['A'],df['V_d_fit'])[0]
+dist_e = pearsonr(df['E'],df['V_d_fit'])[0]
+dist_b = pearsonr(df['Betas'],df['V_d_fit'])[0]
+dist_v = pearsonr(df['V_d_orig'],df['V_d_fit'])[0]
+
+ic(dist_a,dist_e,dist_b,dist_v)
+dist = np.sqrt(((dist_a ** 2)/(np.sqrt(4))) +((dist_e ** 2)/(np.sqrt(4)))+ ((dist_b ** 2)/(np.sqrt(4)))+((dist_v ** 2)/(np.sqrt(4))))
+ic('Correlation', dist)
+
+ic(popt.tolist())
+v_d_popt = popt.tolist()
+plt.figure()
+plt.plot(A, V_d, 'ko', label="Data")
+plt.plot(A, test_fn(A, *popt), 'r-', label="Curve fit")
+
+
+A = df['A'].tolist()
+W_d = df['W_d'].tolist()
+Betas = df['Betas'].tolist()
+W_d_orig = df['W_d_orig'].tolist()
+E = df['E']
+
+def test(A,c0,c1,c2,c3,c4,c5,c6):
+    A_Betas = np.power(Betas,0.5)
+    E_Betas = np.power(Betas,0.25)
+    w = np.power(W_d_orig,2)
+    v = np.power(V_d_orig,2)
+    w_v = np.sqrt(w+v)
+    return (A_Betas*(c0+(c1*A)+(c2*(A*A)))) + W_d_orig + (E_Betas*((c3*E)+(c4*(E*E))+(c5*(E*E*E)))) + ((A_Betas)*(c6*w_v))
+
+
+def test_fn(A,c0,c1,c2,c3,c4,c5,c6):
+    A_Betas = np.power(Betas,0.5)
+    E_Betas = np.power(Betas,0.25)
+    w = np.power(W_d_orig,2)
+    v = np.power(V_d_orig,2)
+    w_v = np.sqrt(w+v)
+    return ne.evaluate('(A_Betas*(c0+(c1*A)+(c2*(A*A)))) + W_d_orig + (E_Betas*((c3*E)+(c4*(E*E))+(c5*(E*E*E)))) + ((A_Betas)*(c6*w_v))')
+
+popt, pcov = curve_fit(test, A, W_d,guess_wd)
+df['W_d_fit'] = test_fn(A, *popt)
+df = df.assign(reducedw = (((df['W_d_fit'] - df['W_d']) ** 2)/(length-len(guess_wd))))
+ic('Reduced Chi: '+ str(df['reducedw'].sum()))
+dist_a = pearsonr(df['A'],df['W_d_fit'])[0]
+dist_e = pearsonr(df['E'],df['W_d_fit'])[0]
+dist_b = pearsonr(df['Betas'],df['W_d_fit'])[0]
+dist_w = pearsonr(df['W_d_orig'],df['W_d_fit'])[0]
+
+ic(dist_a,dist_e,dist_b,dist_w)
+dist = np.sqrt(((dist_a ** 2)/(np.sqrt(4))) +((dist_e ** 2)/(np.sqrt(4)))+ ((dist_b ** 2)/(np.sqrt(4)))+((dist_w ** 2)/(np.sqrt(4))))
+ic('Correlation', dist)
+ic(popt.tolist())
+w_d_popt = popt.tolist()
+print(df.corr(method='spearman').to_string())
+plt.figure()
+plt.plot(A, W_d, 'ko', label="Data")
+plt.plot(A, test_fn(A, *popt), 'r-', label="Curve fit")
+plt.legend()
+#plt.show()
+
+
+with open(__file__, 'r') as f:
+    lines = f.read().split('\n')
+    vd = 'guess_vd = ' + str(v_d_popt)
+    wd = 'guess_wd = ' + str(w_d_popt)
+    lines[13] = vd
+    lines[14] = wd
+
+with open(__file__, 'w') as f:
+    f.write('\n'.join(lines[0:]))

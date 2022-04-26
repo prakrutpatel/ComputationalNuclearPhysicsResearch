@@ -1,0 +1,108 @@
+ENTRY            C1019   20140930   20150202   20150112       C145
+SUBENT        C1019001   20140930   20150202   20150112       C145
+BIB                 10         24
+TITLE      Elastic Scattering of Protons by Single Isotopes
+AUTHOR     (C.B.Fulmer)
+REFERENCE  (J,PR,125,631,196201)
+           #doi:10.1103/PhysRev.125.631
+INSTITUTE  (1USAORL)
+FACILITY   (CYCLO,1USAORL) 86-in cyclotron.
+DETECTOR   (NAICR)
+PART-DET   (P)
+METHOD     (BCINT,PHD) Differential cross sections for the
+           elastic scattering of 22.2-MeV protons were measured
+           for 20 targets of predominantly single isotopic
+           composition at ~2.5-degree intervals over the angular
+           range of 20-150 degrees. For some of the data, the
+           proton beam passed through aluminum absorbers before
+           being collimated at the entrance of the scattering
+           chamber. This provided a beam of incident protons of
+           lower energy.
+ANALYSIS   The data obtained from numerical integration of the
+           elastic peaks were corrected for center-of-mass
+           motion, etc., before angular distributions and cross
+           sections were determined.
+HISTORY    (20040413C) VM
+           (20140930A) BP: Updated and corrected the entry, added
+                      doi, digitized Figs. 3-8.
+ENDBIB              24
+COMMON               1          3
+ERR-S
+PER-CENT
+  5.
+ENDCOMMON            3
+ENDSUBENT           31
+SUBENT        C1019031   20140930   20150202   20150112       C145
+BIB                  4          6
+REACTION   (73-TA-181(P,EL)73-TA-181,,DA,,RTH/REL)
+SAMPLE     (73-TA-181,NAT=0.9998799)
+COMMENT    Authors indicate that there is no significance to the
+           vertical position of each curve, curves were
+           arbitrarily displaced.
+STATUS     (CURVE) Fig. 8, page 637.
+ENDBIB               6
+COMMON               1          3
+EN
+MEV
+       22.2
+ENDCOMMON            3
+DATA                 2         54
+ANG-CM     DATA
+ADEG       NO-DIM
+     19.171  3.125E-01
+     23.421  3.088E-01
+     24.951  2.742E-01
+     27.670  2.241E-01
+     32.260  1.627E-01
+     34.640  1.533E-01
+     36.850  1.345E-01
+     39.059  1.462E-01
+     41.779  1.627E-01
+     43.989  1.706E-01
+     46.199  1.706E-01
+     48.748  1.627E-01
+     51.298  1.479E-01
+     53.338  1.378E-01
+     55.888  1.126E-01
+     58.608  9.765E-02
+     60.647  7.981E-02
+     62.857  6.922E-02
+     64.727  6.601E-02
+     66.257  7.088E-02
+     68.467  8.270E-02
+     70.506  8.776E-02
+     75.436  1.000E-01
+     77.816  1.061E-01
+     82.575  9.094E-02
+     84.955  7.172E-02
+     87.335  7.611E-02
+     89.545  6.003E-02
+     91.755  5.144E-02
+     94.644  4.515E-02
+     97.024  4.678E-02
+     99.404  4.204E-02
+    101.614  5.084E-02
+    104.333  5.395E-02
+    107.223  5.331E-02
+    111.813  5.395E-02
+    113.853  4.848E-02
+    116.572  4.204E-02
+    118.952  3.915E-02
+    120.992  3.561E-02
+    123.372  3.561E-02
+    125.921  3.396E-02
+    128.471  2.876E-02
+    130.681  3.016E-02
+    133.401  2.842E-02
+    135.441  3.238E-02
+    137.990  3.356E-02
+    140.540  3.277E-02
+    142.920  2.910E-02
+    145.130  3.016E-02
+    147.340  2.842E-02
+    149.379  2.742E-02
+    151.589  2.524E-02
+    153.969  2.378E-02
+ENDDATA             56
+ENDSUBENT           71
+ENDENTRY             2

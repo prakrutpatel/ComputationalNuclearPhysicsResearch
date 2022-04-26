@@ -1,0 +1,64 @@
+ENTRY            C0781   20010831   20011130   20050926       0000
+SUBENT        C0781001   20010831   20011130   20050926       0000
+BIB                 13         18
+INSTITUTE  (1USANCA,1USATNL)
+REFERENCE  (J,NP/A,414,113,1984)
+AUTHOR     (J.P.DELAROCHE,R.L.VARNER,T.B.CLEGG,R.E.ANDERSON,
+           B.L.BURKS,E.J.LUDWIG,J.F.WILKERSON)
+TITLE      Structure of low-lying states of 76,78,80,82Se
+            deduced from (p(pol),p') scattering at 16 MeV
+FACILITY   (ACCEL,1USATNL) Tandem electrostatic accelerator.
+INC-SOURCE (LAMB). Beam polarization typically 0.65+-0.03.
+METHOD     (BCINT)
+MONITOR    Beam polarization determined using 4He polarimeter.
+DETECTOR   (SOLST) 4 pairs of solid-state detectors placed
+            symmetrically to left and right of incident beam.
+CORRECTION Corrected for dead time
+ERR-ANALYS (ERR-S) Statistical uncertainty; in some cases, error
+            involved in background subtraction is included.
+STATUS     Data received by email from R. Varner, 26 July 2001.
+           No reply from R. Varner to author proof.
+HISTORY    (20010209C) VM
+ENDBIB              18
+COMMON               2          3
+EN         EN-ERR
+MEV        MEV
+  16.00       0.05
+ENDCOMMON            3
+ENDSUBENT           25
+SUBENT        C0781016   20010730   20011130   20050926       0000
+BIB                  2          4
+REACTION   (34-SE-82(P,INL)34-SE-82,PAR,DA)
+SAMPLE     Targets of enriched 82Se (96.66%) vacuum evaporated
+            onto carbon foil backings. Target thickness 75
+            microg/cm2.
+ENDBIB               4
+NOCOMMON             0          0
+DATA                 4         22
+E-LVL      ANG-CM        DATA       ERR-S
+MEV        ADEG       MB/SR      MB/SR
+ 3.080      25.34       4.525E-01   5.05E-02
+ 3.080      30.40       7.126E-01   4.06E-02
+ 3.080      35.46       1.085E+00   2.56E-02
+ 3.080      40.51       1.272E+00   2.40E-02
+ 3.080      45.56       1.385E+00   2.26E-01
+ 3.080      50.61       1.372E+00   2.22E-02
+ 3.080      55.65       1.138E+00   1.28E-02
+ 3.080      60.69       8.267E-01   1.39E-02
+ 3.080      65.72       5.616E-01   1.09E-02
+ 3.080      70.75       4.069E-01   8.00E-03
+ 3.080      75.77       2.341E-01   9.66E-03
+ 3.080      80.78       3.764E-01   1.09E-02
+ 3.080      85.79       4.150E-01   8.02E-03
+ 3.080      90.80       4.415E-01   7.27E-03
+ 3.080      95.79       4.952E-01   9.01E-03
+ 3.080     100.78       4.587E-01   5.38E-03
+ 3.080     105.77       3.793E-01   6.74E-03
+ 3.080     125.65       1.389E-01   4.04E-03
+ 3.080     130.61       1.534E-01   4.30E-03
+ 3.080     135.56       1.218E-01   2.83E-03
+ 3.080     140.51       1.457E-01   4.33E-03
+ 3.080     145.46       1.568E-01   4.58E-03
+ENDDATA             80
+ENDSUBENT           89
+ENDENTRY             2

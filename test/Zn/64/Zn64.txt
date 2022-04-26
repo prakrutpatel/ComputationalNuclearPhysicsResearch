@@ -1,0 +1,6 @@
+Zn64
+True
+0.00    0+
+30
+64
+Vibrational

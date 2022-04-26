@@ -1,0 +1,6 @@
+Mg24
+True
+0.00    0+
+12
+24
+Vibrational

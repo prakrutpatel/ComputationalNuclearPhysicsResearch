@@ -1,0 +1,96 @@
+ENTRY            O1109   20090828   20100128   20100120       O040
+SUBENT        O1109001   20090828   20100128   20100120       O040
+BIB                 14         33
+TITLE      Scattering of 20.4-MeV polarized protons from even-mass
+           zinc isotopes.
+AUTHOR     (W.H.L.Moonen, J.H.A.M.Krabbenborg, H.P.Offermans,
+           J.F.A.G.Ruyl, P.J.Van Hall, S.S.Klein, G.J.Nijgh,
+           C.W.A.M.van Overveld, R.M.A.L.Petit, O.J.Poppema)
+INSTITUTE  (2NEDENT)
+REFERENCE  (J,JP/G,19,1191,1993)
+REL-REF    (N,O1103001,W.H.L.MOONEN+,J,JP/G,19,635,1993)
+           Polarized-proton scattering by even-mass Ge and Se
+           isotopes.  Some details of experimental setup.
+HISTORY    (20040114C)
+           (20090828A).Correction in author' list has been done,
+           according V.Zerkin remarks.
+SAMPLE     The targets were self-supporting metallic foils of
+           about 1-mg/cm**2.
+           They were enriched to over 96% in the relevant isotope,
+           except for the rare isotope Zn-70.
+ADD-RES    (COMP) DWBA calculations.
+           (POT) Parameters of optical model were obtained using
+           optical model code OPTIMO.
+DETECTOR   (SIBAR) Surface-barrier detectors.
+FACILITY   (ISOCY,2NEDENT) The polarized-beam facility of the
+            Eindhoven AVF cyclotron.
+METHOD     (BCINT)
+           (SITA)
+           (EXTB)
+ERR-ANALYS (ANG-ERR-D).Data-point reader uncertainty.
+STATUS     (CURVE).By CAJAD.
+CORRECTION The corrections for isotopic impurities were
+           appreciable.  Inevitable the targets also contained
+           some contamination of carbon and oxygen.  Corrections
+           were made using data obtained by scattering from mylar
+           and polyethylene foils.
+ENDBIB              33
+COMMON               1          3
+EN
+MEV
+       20.4
+ENDCOMMON            3
+ENDSUBENT           40
+SUBENT        O1109011   20040430              20050926       0000
+BIB                  4         10
+REACTION   (30-ZN-64(P,INL)30-ZN-64,PAR,POL/DA,,ANA)  Figure 3-7
+EN-SEC     (E-LVL,30-ZN-64)
+LEVEL-PROP (30-ZN-64,E-LVL=0.992,SPIN=2.,PARITY=+1.)
+           (30-ZN-64,E-LVL=2.999,SPIN=3.,PARITY=-1.)
+           (30-ZN-64,E-LVL=1.799,SPIN=2.,PARITY=+1.)
+           (30-ZN-64,E-LVL=1.910,SPIN=0.,PARITY=+1.)
+           (30-ZN-64,E-LVL=2.307,SPIN=4.,PARITY=+1.)
+ERR-ANALYS (DATA-ERR).The uncertainty is shown by authors on
+           figure.
+           (ERR-DIG).Data-point reader uncertainty.
+ENDBIB              10
+COMMON               2          3
+ANG-ERR-D  ERR-DIG
+ADEG       NO-DIM
+        0.8     8.E-03
+ENDCOMMON            3
+DATA                 4        29
+E-LVL      ANG-CM     DATA       DATA-ERR
+MEV        ADEG       NO-DIM     NO-DIM
+      2.999       25.5      -0.06       0.07
+      2.999       31.4       0.04       0.04
+      2.999       35.1      0.136      0.025
+      2.999       40.1      0.092      0.022
+      2.999       45.8       0.16       0.01
+      2.999       51.5      0.196       0.02
+      2.999       55.9       0.04       0.03
+      2.999       62.2      0.125       0.02
+      2.999       66.4        0.2       0.05
+      2.999       70.8      -0.02       0.04
+      2.999       75.9      -0.01       0.06
+      2.999       81.8       0.17       0.04
+      2.999       85.5       0.26       0.05
+      2.999       90.6      0.235
+      2.999        96.      0.493
+      2.999      100.7      0.529      0.025
+      2.999      106.3      0.512      0.025
+      2.999      111.3       0.42       0.04
+      2.999      116.2       0.18       0.06
+      2.999      121.4       0.23       0.04
+      2.999      126.8       0.01       0.04
+      2.999      131.2       0.23       0.05
+      2.999      136.3       0.24       0.05
+      2.999      140.5       0.27       0.05
+      2.999      146.1      0.302       0.03
+      2.999      150.8       0.32       0.05
+      2.999     157.15      0.432       0.02
+      2.999      160.3       0.58       0.05
+      2.999       166.       0.59       0.04
+ENDDATA            132
+ENDSUBENT          151
+ENDENTRY             2

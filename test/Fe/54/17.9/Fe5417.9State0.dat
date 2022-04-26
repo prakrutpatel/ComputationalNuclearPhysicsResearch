@@ -1,0 +1,70 @@
+ENTRY            O0168     950724          D   20050926       0000
+SUBENT        O0168001     950724          D   20050926       0000
+BIB                 11         19
+TITLE      INELASTIC PROTON SCATTERING (II). TI-50 AND FE-54.
+AUTHOR     (W.S.GRAY,R.A.KENEFICK,J.J.KRAUSHAAR)
+INSTITUTE  (1USACLU)
+REFERENCE  (J,NP,67,565,65)
+HISTORY    (950710C)
+           (950927U). LAST CHECKING HAS BEEN DONE.
+FACILITY   (ISOCY,1USACLU)
+           (VDGT,1USAFSU).THE FLORIDA STATE UNIVERSITY TANDEM
+           VAN DE GRAFF ACCELERATOR FOR THE SUPPLEMENTARY STUDY
+           OF THE LEVELS OF TI-50.
+METHOD     (SITA)
+DETECTOR   (MAGSP)
+ADD-RES    (COMP).A DISTORTED-WAVE BORN APPROXIMATION ANALYSIS.
+           (POT)
+STATUS     (CURVE).BY CAJAD.
+ERR-ANALYS THE EXPERIMENTAL UNCERTAINTIES CONTRIBUTED A 10% ERR0R
+           TO THE ABSOLUTE VALUES OF THE CROSS SECTIONS.THE
+           RELATIVE ERRORS ARE SMALLER THAN THE CIRCLES
+           REPRESENTING THE EXPERIMENTAL POINTS.
+ENDBIB              19
+NOCOMMON             0          0
+ENDSUBENT           22
+SUBENT        O0168002     950724              20050926       0000
+BIB                  3          6
+REACTION   (26-FE-54(P,EL)26-FE-54,,DA,,,EXP)
+SAMPLE     SELF-SUPPORTING FOILS IRON,THICKNESS 1.07 MG/CM**2,
+           ISOTOPIC COMPOSITION OF THE TARGET-97.21% FE-54 AND
+           2.79% FE-56,WERE USED.
+ERR-ANALYS (DATA-ERR).DATA-POINT READER UNCERTAINTY.
+           (ANG-ERR).DATA-POINT READER UNCERTAINTY.
+ENDBIB               6
+COMMON               3          3
+EN         ANG-ERR    DATA-ERR
+MEV        ADEG       PER-CENT
+       17.9        0.5        2.1
+ENDCOMMON            3
+DATA                 2         25
+ANG-CM     DATA
+ADEG       MB/SR
+       30.8       338.
+       35.8       199.
+       41.3       149.
+       47.7      121.5
+       51.8       96.2
+       56.3       71.8
+        62.       39.9
+       69.1        18.
+       71.1       5.83
+        78.       3.76
+       84.2       7.95
+       89.3      12.49
+       93.9       14.6
+       99.2      13.79
+       104.      10.93
+      107.5       8.15
+      114.4       5.25
+      119.7       3.19
+      123.8       2.52
+      128.3       1.88
+      134.9       2.41
+       140.       3.26
+      144.5       4.34
+      149.8       5.14
+      154.4       5.16
+ENDDATA             27
+ENDSUBENT           42
+ENDENTRY             2

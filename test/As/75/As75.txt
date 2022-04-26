@@ -1,0 +1,6 @@
+As75
+True
+1.50    0-
+42
+75
+Rotational

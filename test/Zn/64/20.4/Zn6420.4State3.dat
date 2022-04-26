@@ -1,0 +1,97 @@
+ENTRY            O1109   20090828   20100128   20100120       O040
+SUBENT        O1109001   20090828   20100128   20100120       O040
+BIB                 14         33
+TITLE      Scattering of 20.4-MeV polarized protons from even-mass
+           zinc isotopes.
+AUTHOR     (W.H.L.Moonen, J.H.A.M.Krabbenborg, H.P.Offermans,
+           J.F.A.G.Ruyl, P.J.Van Hall, S.S.Klein, G.J.Nijgh,
+           C.W.A.M.van Overveld, R.M.A.L.Petit, O.J.Poppema)
+INSTITUTE  (2NEDENT)
+REFERENCE  (J,JP/G,19,1191,1993)
+REL-REF    (N,O1103001,W.H.L.MOONEN+,J,JP/G,19,635,1993)
+           Polarized-proton scattering by even-mass Ge and Se
+           isotopes.  Some details of experimental setup.
+HISTORY    (20040114C)
+           (20090828A).Correction in author' list has been done,
+           according V.Zerkin remarks.
+SAMPLE     The targets were self-supporting metallic foils of
+           about 1-mg/cm**2.
+           They were enriched to over 96% in the relevant isotope,
+           except for the rare isotope Zn-70.
+ADD-RES    (COMP) DWBA calculations.
+           (POT) Parameters of optical model were obtained using
+           optical model code OPTIMO.
+DETECTOR   (SIBAR) Surface-barrier detectors.
+FACILITY   (ISOCY,2NEDENT) The polarized-beam facility of the
+            Eindhoven AVF cyclotron.
+METHOD     (BCINT)
+           (SITA)
+           (EXTB)
+ERR-ANALYS (ANG-ERR-D).Data-point reader uncertainty.
+STATUS     (CURVE).By CAJAD.
+CORRECTION The corrections for isotopic impurities were
+           appreciable.  Inevitable the targets also contained
+           some contamination of carbon and oxygen.  Corrections
+           were made using data obtained by scattering from mylar
+           and polyethylene foils.
+ENDBIB              33
+COMMON               1          3
+EN
+MEV
+       20.4
+ENDCOMMON            3
+ENDSUBENT           40
+SUBENT        O1109010   20040430              20050926       0000
+BIB                  4         10
+REACTION   (30-ZN-64(P,INL)30-ZN-64,PAR,DA)    Figures 3-7
+EN-SEC     (E-LVL,30-ZN-64)
+LEVEL-PROP (30-ZN-64,E-LVL=0.992,SPIN=2.,PARITY=+1.)
+           (30-ZN-64,E-LVL=2.999,SPIN=3.,PARITY=-1.)
+           (30-ZN-64,E-LVL=1.799,SPIN=2.,PARITY=+1.)
+           (30-ZN-64,E-LVL=1.910,SPIN=0.,PARITY=+1.)
+           (30-ZN-64,E-LVL=2.307,SPIN=4.,PARITY=+1.)
+ERR-ANALYS (DATA-ERR).The uncertainty is shown by authors on
+           figure.
+           (ERR-DIG).Data-point reader uncertainty.
+ENDBIB              10
+COMMON               2          3
+ANG-ERR-D  ERR-DIG
+ADEG       PER-CENT
+        0.8        1.9
+ENDCOMMON            3
+DATA                 4        30
+E-LVL      ANG-CM     DATA       DATA-ERR
+MEV        ADEG       MB/SR      PER-CENT
+      2.307       24.9      0.237
+      2.307        30.      0.226
+      2.307       35.1      0.184
+      2.307        40.     0.1495
+      2.307       44.4     0.0992
+      2.307       49.5     0.0742
+      2.307       55.4      0.054         7.
+      2.307        60.      0.049         8.
+      2.307      65.15     0.0491         4.
+      2.307       75.1     0.0938
+      2.307       79.9     0.1206
+      2.307       84.9      0.109         9.
+      2.307       89.4     0.0869
+      2.307      100.5     0.0634
+      2.307      102.1     0.0604
+      2.307      104.4      0.043         7.
+      2.307      109.4     0.0322         7.
+      2.307      119.3     0.0414
+      2.307       125.     0.0477
+      2.307      125.1      0.063
+      2.307      129.2     0.0668
+      2.307      129.8       0.08
+      2.307      136.5     0.0828
+      2.307      138.6     0.0911
+      2.307      142.2     0.0955
+      2.307      143.8     0.1001
+      2.307      147.3     0.0898
+      2.307      153.9     0.0824
+      2.307      157.9     0.0712
+      2.307       164.     0.0587
+ENDDATA            132
+ENDSUBENT          151
+ENDENTRY             2

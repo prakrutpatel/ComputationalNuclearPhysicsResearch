@@ -1,0 +1,65 @@
+BIB                 12         18                                 O0083001    2
+TITLE      SYSTEMATICAL 'ANOMALOUS' FEATURES OF PROTON ELASTIC    O0083001    3
+           SCATTERING RELATED TO SHELL STRUCTURE.                 O0083001    4
+AUTHOR     (E.COLOMBO,R.DE LEO,J.L.ESCUDIE,E.FABRICI,S.MICHELETTI,O0083001    5
+           M.PIGNANELLI,F.RESMINI)                                O0083001    6
+INSTITUTE  (2ITYMIL)                                              O0083001    7
+           (2ITYBAU)                                              O0083001    8
+           (2FR SAC)                                              O0083001    9
+REFERENCE  (C,77TOKYO,,543,77).PUBLISHED AS JPJ SUPPL.,44,543,78. O0083001   10
+HISTORY    (950222C)                                              O0083001   11
+           (950320U)                                              O0083001   12
+SAMPLE     .NO INFORMATION AVAILABLE.                             O0083001   13
+DETECTOR   .NO INFORMATION AVAILABLE.                             O0083001   14
+FACILITY   (CYCLO,2ITYMIL)                                        O0083001   15
+METHOD     ANY INFORMATION IS ABSENT.                             O0083001   16
+ADD-RES    (COMP).OPTICAL MODEL.                                  O0083001   17
+STATUS     (CURVE).BY CAJAD.                                      O0083001   18
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0083001   19
+           (DATA-ERR).DATA-POINT READER UNCERTAINTY.              O0083001   20
+ENDBIB              18                                            O0083001   21
+NOCOMMON             0          0                                 O0083001   22
+ENDSUBENT           21                                            O008300199999
+SUBENT        O0083004     950223                
+REACTION   (8-O-18(P,EL)8-O-18,,DA,,,EXP)                         O0083010    3
+ENDBIB               1                                            O0083010    4
+COMMON               3          3                                 O0083010    5
+EN         ANG-ERR    DATA-ERR                                    O0083010    6
+MEV        ADEG       PER-CENT                                    O0083010    7
+       35.2        0.5        2.1                                 O0083010    8
+ENDCOMMON            3                                            O0083010    9
+DATA                 2         29                                 O0083010   10
+ANG-CM     DATA                                                   O0083010   11
+ADEG       MB/SR                                                  O0083010   12
+       25.3       908.                                            O0083010   13
+       31.6       424.                                            O0083010   14
+       37.7       167.                                            O0083010   15
+       42.2       54.3                                            O0083010   16
+       45.1       22.1                                            O0083010   17
+       49.7       20.2                                            O0083010   18
+       55.6       23.1                                            O0083010   19
+       63.9       16.6                                            O0083010   20
+       70.7      11.26                                            O0083010   21
+       75.7       5.56                                            O0083010   22
+        80.       3.16                                            O0083010   23
+       85.1        1.7                                            O0083010   24
+       89.7      1.111                                            O0083010   25
+       95.3      0.959                                            O0083010   26
+      100.1      0.762                                            O0083010   27
+      103.5       0.66                                            O0083010   28
+      109.1      0.539                                            O0083010   29
+      113.8      0.405                                            O0083010   30
+      120.5      0.264                                            O0083010   31
+      125.7      0.159                                            O0083010   32
+      126.7      0.112                                            O0083010   33
+      132.4      0.098                                            O0083010   34
+      137.6      0.113                                            O0083010   35
+      141.5      0.135                                            O0083010   36
+      147.5      0.167                                            O0083010   37
+      151.1      0.164                                            O0083010   38
+       156.      0.144                                            O0083010   39
+       163.      0.114                                            O0083010   40
+      166.2      0.081                                            O0083010   41
+ENDDATA             31                                            O0083010   42
+ENDSUBENT           41                                            O008301099999
+SUBENT        O0083011     950223                                 O0083011    1

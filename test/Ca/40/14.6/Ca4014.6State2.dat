@@ -1,0 +1,65 @@
+ENTRY            O0384     970728              20050926       0000
+SUBENT        O0384001     970728              20050926       0000
+BIB                 12         20
+TITLE      Inelastic Proton Scattering Ar-40 and Ca-40.
+AUTHOR     (W.S.GRAY,R.A.KENEFICK,J.J.KRAUSHAAR)
+INSTITUTE  (1USACLU) Department of Physics and Astrophysics.
+REFERENCE  (J,NP,67,542,65)
+HISTORY    (970721C)
+           (970728U) Last checking has been done.
+ADD-RES    (COMP).DWBA Analysis. Optical Model Calculations.
+           (P-SPC)
+           (STRUC)
+           (POT)
+PART-DET   (P)
+DETECTOR   (SOLST).The Surface Barrier Semiconductor Spectrometer.
+           One  Lithium  Drifted Detector was Used. All Detectors
+           Had a Dead Layer on the Front Surface of Less Than 1
+           Mum Thick.
+FACILITY   (CYCLO,1USACLU).Four-Sector (FFAG) Cyclotron.
+METHOD     (EXTB)
+           (BCINT)
+ERR-ANALYS (ANG-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD.
+ENDBIB              20
+NOCOMMON
+ENDSUBENT           23
+SUBENT        O0384005     970728              20050926       0000
+BIB                  4         10
+REACTION   (20-CA-40(P,INL)20-CA-40,PAR,DA,,,EXP) Fig.8a, Middle.
+EN-SEC     (E-LVL,20-CA-40)
+SAMPLE     The Calcium Target was a Natural Calcium Foil (99.6%
+           CA-40), Which was Rolled in Air to a Thickness of
+            5.8 Mg/Cm**2.As Calcium Oxidizes Very Rapidly When
+           Exposed to Air,the Target Prepared in this Way was
+           Heavily Contaminated with Oxygen, and in Fact was
+           Somewhat Wrinkled As a Results of Chemical Changes
+           Occurring After the Target was Mounted.
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       14.6        3.9        0.5
+ENDCOMMON            3
+DATA                 3         15
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      PER-CENT
+        35.        0.8        50.
+       40.2        0.9        30.
+       44.6       1.05        20.
+       49.5       1.04        14.
+        55.         1.        20.
+       60.3       0.98        17.
+       64.7       1.04        14.
+       70.7       0.97        15.
+       75.9       0.85         9.
+       81.9       0.64        11.
+       86.8       0.62        11.
+       91.3        0.6        12.
+       96.5       0.76        22.
+      101.7       0.88        10.
+      106.5       1.12        11.
+ENDDATA             17
+ENDSUBENT           36
+ENDENTRY             2

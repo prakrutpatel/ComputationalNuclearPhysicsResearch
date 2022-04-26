@@ -1,0 +1,6 @@
+Lu176
+True
+7.00    0-
+105
+176
+Rotational

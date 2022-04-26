@@ -1,0 +1,92 @@
+REQUEST         472001   20070711          3     163540               0  0    0
+ENTRY            C0623   20000628   20000807                      
+SUBENT        C0623001   20000628   20000807                      
+BIB                 10         18                                 
+INSTITUTE  (1CANMNA)                                              
+REFERENCE  (J,PR/C,27,482,198302)                                 
+AUTHOR     (D.K.HASELL,N.E.DAVISON,T.N.NASR,B.T.MURDOCH,          
+           A.M.SOURKES,W.T.H.VAN OERS)                            
+TITLE      Elastic and inelastic scattering of protons from 24Mg  
+FACILITY   (CYCLO,1CANMNA)                                        
+DETECTOR   (NAICR) NaI(Tl) detector assemblies.                   
+CORRECTION Corrected for:                                         
+           . computer deadtime,                                   
+           . proton reaction losses in detectors,                 
+           . multiple scattering in target,                       
+           . finite size and divergence of incident beam,         
+           . finite apertures of collimators.                     
+ERR-ANALYS (DATA-ERR) Absolute uncertainty.                       
+STATUS     (APRVD) Approved by W.T.H. van Oers, 28 June 2000.     
+           Tabulated data received from W.T.H.van Oers, 5 April   
+            2000.                                                 
+HISTORY    (20000417C) VM                                         
+ENDBIB              18                                            
+NOCOMMON             0          0                                 
+ENDSUBENT           21                                            
+SUBENT        C0623002   20000530   20000807                      
+BIB                  2          3                                 
+REACTION   (12-MG-24(P,EL)12-MG-24,,DA)                           
+SAMPLE     Target enriched to >99% 24Mg. Areal density            
+            4.93+-0.13 mg/cm2. Oxygen impurity present in target. 
+ENDBIB               3                                            
+NOCOMMON             0          0                                 
+DATA                 4          54                                 
+EN         ANG-CM     DATA-CM    DATA-ERR                         
+MEV        ADEG       MB/SR      PER-CENT                         
+ 35.00      10.43     2672.        6.4                            
+ 35.00      13.04     2039.        3.0                            
+ 35.00      15.65     1626.        3.2                            
+ 35.00      18.25     1260.        3.2                            
+ 35.00      20.85      942.3       3.2                            
+ 35.00      23.45      660.5       4.3                            
+ 35.00      26.05      434.0       4.0                            
+ 35.00      28.65      267.5       4.2                            
+ 35.00      31.25      146.5       8.8                            
+ 35.00      33.84       81.37      7.9                            
+ 35.00      36.43       44.25      4.9                            
+ 35.00      39.02       29.96      3.4                            
+ 35.00      41.60       26.87      3.3                            
+ 35.00      44.18       30.66      3.1                            
+ 35.00      46.76       33.82      3.0                            
+ 35.00      49.34       36.42      3.0                            
+ 35.00      51.91       36.45      2.9                            
+ 35.00      54.48       34.10      3.0                            
+ 35.00      57.04       29.69      3.1                            
+ 35.00      59.60       24.67      3.3                            
+ 35.00      62.16       19.64      3.5                            
+ 35.00      64.71       14.98      3.6                            
+ 35.00      67.26       10.90      3.5                            
+ 35.00      69.80        8.009     4.2                            
+ 35.00      72.34        5.816     3.9                            
+ 35.00      74.88        4.490     3.6                            
+ 35.00      77.41        3.670     3.8                            
+ 35.00      79.93        3.259     3.2                            
+ 35.00      82.45        3.024     3.1                            
+ 35.00      84.97        2.937     2.9                            
+ 35.00      87.48        2.808     3.2                            
+ 35.00      89.99        2.721     3.1                            
+ 35.00      92.49        2.517     3.1                            
+ 35.00      94.99        2.309     3.1                            
+ 35.00      97.48        2.029     3.1                            
+ 35.00      99.97        1.727     3.5                            
+ 35.00     102.45        1.480     3.1                            
+ 35.00     104.93        1.234     3.2                            
+ 35.00     107.40         .9989    3.7                            
+ 35.00     109.87         .8252    6.0                            
+ 35.00     112.34         .6620    3.2                            
+ 35.00     114.80         .5465    4.2                            
+ 35.00     117.26         .4788    3.2                            
+ 35.00     122.15         .3873    3.1                            
+ 35.00     127.04         .3485    2.9                            
+ 35.00     131.91         .3213    3.0                            
+ 35.00     136.76         .2835    3.1                            
+ 35.00     141.60         .2429    3.2                            
+ 35.00     146.43         .2043    3.0                            
+ 35.00     151.24         .1808    3.3                            
+ 35.00     156.05         .1538    4.7                            
+ 35.00     160.85         .1330    4.0                            
+ 35.00     165.64         .1008    5.1                            
+ 35.00     170.43         .0671    6.2                            
+ENDDATA            210                                            
+ENDSUBENT          218                                            
+ENDENTRY             2                                            

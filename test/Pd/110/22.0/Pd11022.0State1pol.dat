@@ -1,0 +1,95 @@
+ENTRY            E0833   20080131   20080131   20080131       E051
+SUBENT        E0833001   20080131   20080131   20080131       E051
+BIB                 10         19
+TITLE      Elastic and inelastic scattering of polarized protons
+           from the isotopes 104,106,108,110Pd
+AUTHOR     (Y.Aoki, H.Iida, K.Hashimoto, K.Nagano, M.Takei,
+           Y.Toba, K.Yagi)
+INSTITUTE  (2JPNTSU)
+REFERENCE  (J,NP/A,394,(3),413,198302)
+           Main reference. See also TITLE and AUTHOR.
+           (T,NAGANO,1982) K.Nagano, Numerical data
+PART-DET   (P)
+INC-SOURCE Beam intensity is 100 nA.
+SAMPLE     - Chemical-form of target is element.
+           - Physical-form of target is solid.
+           - Target is self supported.
+FACILITY   (VDGT,2JPNTSU) 12UD Pelletron
+DETECTOR   Solid angle of detector is 2.0 msr.
+           (MAGSP,SWPC) To momentum analyze and detect scattered
+                        protons
+HISTORY    (19881025T) On. Converted from NRDF D0833
+           (20070316T) On. Re-converted from NRDF D0833
+ENDBIB              19
+COMMON               1          3
+EN
+MEV
+ 22.0
+ENDCOMMON            3
+ENDSUBENT           26
+SUBENT        E0833015   20080131   20080131   20080131       E051
+BIB                  7         13
+REACTION   (46-PD-110(P,INL)46-PD-110,PAR,POL/DA,,ANA)
+EN-SEC     ANG-CM is polar angle between beam and proton in
+           center of mass system
+           (E-LVL,46-PD-110)
+LEVEL-PROP (46-PD-110,E-LVL=0.3738,SPIN=2.,PARITY=+1.)
+SAMPLE     - Target enrichment is 97.73%.
+           - Target-thickness is 2.26 mg/cm**2.
+ERR-ANALYS (ERR-S) Statistical uncertainty
+ADD-RES    (COMP) 1. DWBA (Distorted wave Born approximation)
+                  (Code DWUCK4)
+                  2. Coupled channel method (Code ECIS)
+STATUS     (TABLE) Data (Fig.6, p418 in main reference) taken
+                   from doctor thesis of K.Nagano
+ENDBIB              13
+COMMON               2          3
+E-RSL      E-LVL
+KEV        MEV
+ 65.        0.3738
+ENDCOMMON            3
+DATA                 3         39
+ANG-CM     DATA       ERR-S
+ADEG       NO-DIM     NO-DIM
+20.2	0.066	0.7
+25.2	-0.027	0.6
+30.3	-0.042	1.4
+35.3	-0.103	0.6
+37.8	-0.09	1.5
+40.3	-0.115	0.9
+42.9	-0.101	1.9
+45.4	-0.029	1
+50.4	0.066	1
+52.9	0.074	0.8
+55.4	0.071	0.9
+57.9	0.051	0.8
+60.5	0.035	1
+65.5	0.007	0.9
+70.5	-0.047	1.1
+73	-0.078	1.1
+75.5	-0.098	1.2
+78	-0.126	1.2
+80.5	-0.118	1.2
+83	-0.109	1.3
+85.5	-0.109	1.3
+88	-0.085	1.3
+90.5	-0.043	1
+95.5	0.049	1.1
+100.5	0.114	1.2
+105.5	0.09	1.3
+108	0.056	1.7
+110.5	0.035	1.3
+113	-0.047	1.8
+115.5	-0.097	1.5
+120.5	-0.221	1.5
+122.9	-0.246	1.2
+125.4	-0.245	1.7
+127.9	-0.158	1.2
+130.4	-0.046	1.8
+135.4	0.192	1.8
+140.3	0.385	1.8
+145.3	0.331	1.9
+150.3	0.04	1.9
+ENDDATA             41
+ENDSUBENT           63
+ENDENTRY             2

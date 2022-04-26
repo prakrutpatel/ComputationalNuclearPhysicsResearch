@@ -1,0 +1,77 @@
+ENTRY            E1677   20190107   20190401   20190318       E122
+SUBENT        E1677001   20190107   20190401   20190318       E122
+BIB                  9         18
+TITLE       a new approach to a 'model-independent' optical
+            potential and its application to proton elastic
+            scattering near the (p,n) threshold energy region
+AUTHOR     (Y.Aoki,K.Hirota,H.Kishita,K.Koyama,M.Masaki,K.Miura,
+           Y.Mukouhara,S.Nakagawa,N.Okumura,Y.Tagishi)
+INSTITUTE  (2JPNTSU)
+REFERENCE  (J,NP/A,599,417,1996)
+FACILITY   (VDGT,2JPNTSU) 12UD Pelletron
+PART-DET   (P)
+ERR-ANALYS (DATA-ERR) No information on source of uncertainties.
+STATUS      Data converted from NRDF
+HISTORY    (19990414T) Converted from NRDF data No. D1677
+           (20001027A) Date is corrected
+           (20040331A) Author's name is corrected.
+           (20190107A) Tada. 002-007,016-020: Data and DATA-ERR
+                       values are corrected.
+           (20190107D) Tada. 003-008 and 017-021 are merged to
+                       related subentries.
+ENDBIB              18
+NOCOMMON             0          0
+ENDSUBENT           21
+SUBENT        E1677014   20001027   20010402   20050926       0000
+BIB                  5          8
+REACTION   (14-SI-28(P,EL)14-SI-28,,POL/DA,,ANA)
+FACILITY    UNCERTAIN.
+INC-SOURCE  CHARGE OF INCIDENT-ION IS 1.
+SAMPLE      TARGET IS NATURAL
+            CHEMICAL-FORM OF TARGET IS SI02
+            PHYSICAL-FORM OF TARGET IS SOLID
+            TARGET-THICKNESS=
+ERR-ANALYS  STATISTICAL ERROR <5%
+ENDBIB               8
+COMMON               1          3
+EN
+MEV
+14.5
+ENDCOMMON            3
+DATA                 4         31
+ANG-CM     DATA       +DATA-ERR  -DATA-ERR
+ADEG       NO-DIM     NO-DIM     NO-DIM
+  3.030E+01 -8.667E-02 +6.59E-03   -9.86E-03 
+  3.592E+01 -4.027E-02 +6.59E-03   -9.86E-02
+  4.082E+01  9.387E-02 +6.59E-03   -9.86E-02
+  4.321E+01  3.864E-01 +6.593E-03 -9.860E-03
+  4.519E+01  6.688E-01 +2.293E-02 -3.279E-02
+  5.006E+01  6.853E-01 +1.319E-02 -1.960E-02
+  5.270E+01  4.355E-01 +1.960E-02 -1.319E-02
+  5.489E+01  2.540E-01 +1.313E-02 -1.295E-02
+  6.089E+01  2.289E-02 1.5E-02    -1.3E-02
+  6.693E+01 -1.036E-01 1.5E-02    -1.3E-02
+  7.195E+01 -2.341E-01 1.5E-02    -1.3E-02
+  7.680E+01 -3.517E-01 1.5E-02    -1.3E-02
+  8.106E+01 -4.500E-01 +2.952E-02 -1.307E-02
+  8.580E+01 -6.820E-01 +1.960E-02 -9.801E-03
+  9.126E+01 -8.449E-01 +6.534E-03 -2.929E-02
+  9.733E+01 -8.635E-01 +1.972E-02 -1.972E-02
+  1.027E+02 -2.225E-01 2.0E-02    -2.0E-02
+  1.077E+02  6.568E-01 +1.639E-02 -2.952E-02
+  1.117E+02  9.178E-01 +3.932E-02 -3.279E-02
+  1.165E+02  8.591E-01 +2.281E-02 -6.190E-02
+  1.219E+02  7.125E-01 +1.960E-02 -2.305E-02
+  1.270E+02  5.919E-01 +1.663E-02 -6.534E-03
+  1.327E+02  5.566E-01 +1.628E-02 -1.634E-02
+  1.378E+02  5.112E-01 +6.593E-03 -2.287E-02
+  1.424E+02  5.634E-01 +6.651E-03 -1.622E-02
+  1.464E+02  7.231E-01 +1.639E-02 -1.634E-02
+  1.512E+02  8.473E-01 +2.614E-02 -3.932E-02
+  1.555E+02  6.837E-01 +3.932E-02 -2.625E-02
+  1.617E+02  5.409E-01 +1.639E-02 -3.261E-02
+  1.667E+02  3.843E-01 +1.301E-02 -3.267E-03
+  1.720E+02  2.539E-01 1.3E-02    -3.5E-03
+ENDDATA             33
+ENDSUBENT           50
+ENDENTRY             2

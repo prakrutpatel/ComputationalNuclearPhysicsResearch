@@ -1,0 +1,68 @@
+ENTRY            O0168     950724          D   20050926       0000
+SUBENT        O0168001     950724          D   20050926       0000
+BIB                 11         19
+TITLE      INELASTIC PROTON SCATTERING (II). TI-50 AND FE-54.
+AUTHOR     (W.S.GRAY,R.A.KENEFICK,J.J.KRAUSHAAR)
+INSTITUTE  (1USACLU)
+REFERENCE  (J,NP,67,565,65)
+HISTORY    (950710C)
+           (950927U). LAST CHECKING HAS BEEN DONE.
+FACILITY   (ISOCY,1USACLU)
+           (VDGT,1USAFSU).THE FLORIDA STATE UNIVERSITY TANDEM
+           VAN DE GRAFF ACCELERATOR FOR THE SUPPLEMENTARY STUDY
+           OF THE LEVELS OF TI-50.
+METHOD     (SITA)
+DETECTOR   (MAGSP)
+ADD-RES    (COMP).A DISTORTED-WAVE BORN APPROXIMATION ANALYSIS.
+           (POT)
+STATUS     (CURVE).BY CAJAD.
+ERR-ANALYS THE EXPERIMENTAL UNCERTAINTIES CONTRIBUTED A 10% ERR0R
+           TO THE ABSOLUTE VALUES OF THE CROSS SECTIONS.THE
+           RELATIVE ERRORS ARE SMALLER THAN THE CIRCLES
+           REPRESENTING THE EXPERIMENTAL POINTS.
+ENDBIB              19
+NOCOMMON             0          0
+ENDSUBENT           22
+SUBENT        O0168008     950724              20050926       0000
+BIB                  5         10
+REACTION   (26-FE-54(P,INL)26-FE-54,PAR,DA,,,EXP)
+EN-SEC     (E-LVL,26-FE-54)
+LEVEL-PROP (26-FE-54,E-LVL=3.16,SPIN=2.,PARITY=+1.)
+SAMPLE     SELF-SUPPORTING FOILS IRON,THICKNESS 1.07 MG/CM**2,
+           ISOTOPIC COMPOSITION OF THE TARGET-97.21% FE-54 AND
+           2.79% FE-56,WERE USED.
+ERR-ANALYS (ERR-T) RELATIVE ERRORS, BASED UPON STATISTICAL
+           UNCERTAINTY AND UNCERTAINTY IN DETERMINING THE
+           BACKGROUND LEVEL.
+           (ANG-ERR).DATA-POINT READER UNCERTAINTY.
+ENDBIB              10
+COMMON               3          3
+EN         E-LVL      ANG-ERR
+MEV        MEV        ADEG
+       17.9       3.16        0.4
+ENDCOMMON            3
+DATA                 3         19
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      PER-CENT
+       42.1      0.375         5.
+       48.3      0.375         7.
+       52.8      0.285         5.
+       57.3      0.199         8.
+        62.      0.122        11.
+       68.2      0.117        11.
+       72.4      0.105         8.
+       77.7       0.11        11.
+       81.6      0.099         8.
+       87.8       0.11        10.
+       93.9      0.105        10.
+       97.1      0.144         8.
+      103.2      0.136        11.
+      108.2      0.168        13.
+      112.4      0.118        16.
+      118.5      0.122        11.
+      123.4       0.13        10.
+      126.7      0.085        12.
+      132.5      0.089         9.
+ENDDATA             21
+ENDSUBENT           40
+ENDENTRY             2

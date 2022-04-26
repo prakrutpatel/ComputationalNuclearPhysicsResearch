@@ -1,0 +1,80 @@
+ENTRY            O0170   20040720              20050926       0000
+SUBENT        O0170001   20040720              20050926       0000
+BIB                 14         33
+TITLE      Scattering of polarised protons by Ni, Sr, Cd, In  and
+           Sn isotopes. Inelastic scattering - collective analysis
+AUTHOR     (P.J.Van Hall, S.D.Wassenaar, S.S.Klein, G.J.Nijgh,
+           J.H.Polane, O.J.Poppema)
+INSTITUTE  (2NEDENT)
+REFERENCE  (J,JP/G,15,199,1989)
+           (T,WASSENAAR,1982)
+COMMENT    - By compiler.  Wassenaar's Dissertation was received
+           from the Library of Eindhoven University of technology.
+           Compiler thanks staff of the Library.
+HISTORY    (19950711C)
+           (19980914A) Lower case. Correction some data according
+           to Wassenaar's thesis.
+           (20040716A) Updated for new rules.
+           (20040720U) Last checking has been done.
+FACILITY   (ISOCY,2NEDENT)
+METHOD     (EXTB,BCINT)
+REL-REF    (N,O0091001,P.J.VAN HALL+,J,NP/A,291,63,1977).
+           Experimental method.
+           (N,O0169001,S.D.WASSENAAR+,J,JP/G,15,181,1989)
+           Elastic scattering data for same nuclei and optical
+           potential parameters.
+           (N,,P.J.VAN HALL+,J,JP/G,15,221,1989) A microscopic
+           analysis of inelastic proton scattering from 116-Sn and
+           124-Sn.
+DETECTOR   (SILI).Four 3 mm thick Si(Li) detectors.
+ADD-RES    (COMP).Distorted-wave approximation analysis. Coupled-
+           channels calculations.
+           (STRUC) Deformation parameters.
+           (POT) Optical model parameters.
+STATUS     (CURVE).By CAJAD from quoted journal.
+ERR-ANALYS (ANG-ERR-D) Data-point reader uncertainty.
+PART-DET   (P)
+ENDBIB              33
+NOCOMMON
+ENDSUBENT           36
+SUBENT        O0170059   20040720              20050926       0000
+BIB                  5          9
+REACTION   (50-SN-120(P,INL)50-SN-120,PAR,POL/DA,,ANA)
+SAMPLE     Sn-120, thickness 1 mg/cm**2, isotopic composition:
+           <0.05% of Sn-115, 0.20% of Sn-116, 0.12% of Sn-117,
+           0.50% of Sn-118, 0.39% of Sn-119, 98.39% of Sn-120,
+           0.15% of Sn-122, 0.26% of Sn-124.
+EN-SEC     (E-LVL,50-SN-120)
+LEVEL-PROP (50-SN-120,E-LVL=2.41,SPIN=3.,PARITY=-1.) First 3-.
+ERR-ANALYS (ERR-DIG)  Data-point reader uncertainty.
+           (ERR-S).The uncertainty is reported by authors.
+ENDBIB               9
+COMMON               4          3
+E-LVL      EN         ANG-ERR-D  ERR-DIG
+MEV        MEV        ADEG       NO-DIM
+       2.41       20.4        0.8    0.7E-02
+ENDCOMMON            3
+DATA                 3         18
+ANG-CM     DATA       ERR-S
+ADEG       NO-DIM     NO-DIM
+       28.8        0.1    0.6E-01
+       42.7   0.99E-01
+       48.5   0.98E-01
+       54.3    0.7E-01    0.4E-01
+        60.    0.2E-01    0.6E-01
+       63.7      0.188
+       66.1      0.252   0.12E-01
+       71.9      0.245
+        76.      0.267
+       87.3    0.9E-01
+       94.7  -0.29E-01
+      104.9        0.2    0.4E-01
+      110.1        0.2    0.3E-01
+      116.1       0.32    0.5E-01
+      121.8        0.3    0.3E-01
+      124.1       0.23    0.4E-01
+      129.6    0.2E-01    0.5E-01
+       135.      -0.21    0.4E-01
+ENDDATA             20
+ENDSUBENT           38
+ENDENTRY             2

@@ -1,0 +1,56 @@
+TITLE       STRUCTURE OF 14C STUDIED BY THE 14C(P,D) 13C          E1307001    3
+            REACTION                                              E1307001    4
+AUTHOR     (M.YASUE,M.H.TANAKA,T.HASEGAWA,K.NISIMURA,H.OHNUMA,    E1307001    5
+           H.SHIMIZU,K.IEKI,H.TOYOKAWA,M.IWASE,J.IIMURA,H.YOSHIDA,E1307001    6
+           T.NAKAGAWA,A.SATO,T.NIIZEKI,J.TAKAMATSU,Y.TAKAHASHI,   E1307001    7
+           T.TOHEI,H.ORIHARA,T.SUEHIRO,S.I.HAYAKAWA,K.OGAWA,      E1307001    8
+           M.IGARASHI,R.J.PETERSON)                               E1307001    9
+INSTITUTE  (2JPNOSA) RESEARCH CENTER FOR NUCLEAR PHYSICS, OSAKA   E1307001   10
+            UNIV.                                                 E1307001   11
+           (2JPNTOK) INSTITUTE FOR NUCLEAR STUDY, TOKYO UNIV.     E1307001   12
+           (2JPNTIT)                                              E1307001   13
+           (2JPNTOH)                                              E1307001   14
+           (2JPNTOI)                                              E1307001   15
+           (1USACLU)                                              E1307001   16
+REFERENCE  (J,NP/A,509,141,1990)                                  E1307001   17
+FACILITY   (CYCLO,2JPNTOK)                                        E1307001   18
+SAMPLE      TARGET IS ENRICHED 94.PER-CENT                        E1307001   19
+            CHEMICAL-FORM OF TARGET IS ELEMENT                    E1307001   20
+            PHYSICAL-FORM OF TARGET IS SOLID                      E1307001   21
+            TARGET-THICKNESS=0.16MG/CM**2                         E1307001   22
+            TARGET-BACKING IS SELF                                E1307001   23
+STATUS      DATA CONVERTED FROM NRDF                              E1307001   24
+HISTORY    (19940824T) CONVERTED FROM NRDF DATA NO. D1307         E1307001   25
+           (20040402A) Institute code is corrected.               E1307001   26
+ENDBIB              24                                            E1307001   27
+NOCOMMON             0          0                                 E1307001   28
+ENDSUBENT           27                                            E130700199999
+SUBENT        E1307018   20040622                                 E1307018    1
+BIB                  4          4                                 E1307018    2
+REACTION   (6-C-14(P,EL)6-C-14,,DA)                               E1307018    3
+PART-DET   (P)                                                    E1307018    4
+ERR-ANALYS (ERR-1) SYSTEMATIC ERROR                               E1307018    5
+HISTORY    (20040402A) Blank record is deleted.                   E1307018    6
+ENDBIB               4                                            E1307018    7
+COMMON               2          3                                 E1307018    8
+EN         ERR-1                                                  E1307018    9
+MEV        PER-CENT                                               E1307018   10
+35.0       15.                                                    E1307018   11
+ENDCOMMON            3                                            E1307018   12
+DATA                 2          9                                 E1307018   13
+ANG-CM     DATA                                                   E1307018   14
+ADEG       MB/SR                                                  E1307018   15
+  3.072E+01  1.687E+02                                            E1307018   16
+  3.666E+01  7.731E+01                                            E1307018   17
+  4.277E+01  2.995E+01                                            E1307018   18
+  4.772E+01  1.809E+01                                            E1307018   19
+  5.210E+01  1.618E+01                                            E1307018   20
+  5.754E+01  1.500E+01                                            E1307018   21
+  6.386E+01  1.325E+01                                            E1307018   22
+  6.903E+01  1.059E+01                                            E1307018   23
+  7.325E+01  7.419E+00                                            E1307018   24
+ENDDATA             11                                            E1307018   25
+ENDSUBENT           24                                            E130701899999
+ENDENTRY             2                                            E130799999999
+ENTRY            E1317     950427                                 E1317000    1
+SUBENT        E1317001     950427                       

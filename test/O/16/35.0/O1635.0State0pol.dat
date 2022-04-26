@@ -1,0 +1,61 @@
+TITLE       THE 16O(P,P) REACTION AT 35 MEV                       E1317001    3
+AUTHOR     (H.OHNUMA,N.HOSHINO,K.IEKI,M.IWASE,H.SHIMIZU,          E1317001    4
+           H.TOYOKAWA,T.HASEGAWA,K.NISIMURA,M.YASUE,H.KABASAWA,   E1317001    5
+           T.NAKAGAWA,T.TOHEI,H.ORIHARA,S.I.HAYAKAWA,K.MIURA,     E1317001    6
+           T.SUEHIRO,S.K.NANDA,D.DEHNHARD,M.A.FRANEY)             E1317001    7
+INSTITUTE  (2JPNTIT)                                              E1317001    8
+           (2JPNTOK) INSTITUTE FOR NUCLEAR STUDY, TOKYO UNIV.     E1317001    9
+           (2JPNTOH)                                              E1317001   10
+           (2JPNJPN)                                              E1317001   11
+           (1USAMIN)                                              E1317001   12
+REFERENCE  (J,NP/A,514,273,90)                                    E1317001   13
+METHOD     (EDE)                                                  E1317001   14
+FACILITY   (CYCLO,2JPNTOK)                                        E1317001   15
+DETECTOR   (COIN,MAGSP,SWPC,SOLST,PROPC)                          E1317001   16
+            OVERALL-ENERGY-RESOLUTION IS ABOUT 110.KEV            E1317001   17
+INC-SOURCE  BEAM-ENERGY-SPREAD IS ABOUT 70.KEV                    E1317001   18
+            BEAM-POLARIZATION IS NOT GIVEN                        E1317001   19
+SAMPLE      TARGET IS NATURAL                                     E1317001   20
+            CHEMICAL-FORM OF TARGET IS ELEMENT                    E1317001   21
+            PHYSICAL-FORM OF TARGET IS GAS                        E1317001   22
+            TARGET-THICKNESS=THE TARGET WAS O2 GAS CONTAINED IN   E1317001   23
+            A CYLINDRICAL GAS CELL WITH ENTRANCE AND EXIT WINDOWS E1317001   24
+            OF 2 OR 5 MICRON THICK HAVAR FOIL. THE GAS PRESSURE   E1317001   25
+            WAS 48.00KPA IN FOWARD-ANGLE (THETA(LAB) LESS THAN 65 E1317001   26
+            DEG). MEASUREMENTS AND 61.33KPA IN LARGE-ANGLE        E1317001   27
+            MEASUREMENTS.                                         E1317001   28
+PART-DET   (P)                                                    E1317001   29
+STATUS      DATA CONVERTED FROM NRDF                              E1317001   30
+HISTORY    (941011T) CONVERTED FROM NRDF DATA NO. D1317           E1317001   31
+           (950427A) CORRECTIONS                                  E1317001   32
+ENDBIB              30                                            E1317001   33
+NOCOMMON                                                          E1317001   34
+ENDSUBENT           33                                            E131700199999
+SUBENT        E1317003     950427                                 E1317003    1
+BIB                  3          3                                 E1317003    2
+REACTION   (8-O-16(P,EL)8-O-16,,DA)                               E1317003    3
+LEVEL-PROP (8-O-16,E-LVL=0.0MEV,SPIN=0.0,PARITY=+1.)              E1317003    4
+ERR-ANALYS  SYSTEMATIC ERROR <10%                                 E1317003    5
+DATA                 3         17                                 E1317017   11
+ANG-CM     DATA       DATA-ERR                                    E1317017   12
+ADEG       NO-DIM     NO-DIM                                      E1317017   13
+  2.253E+01 -7.101E-02  1.548E-02                                 E1317017   14
+  2.801E+01 -1.232E-01  1.467E-02                                 E1317017   15
+  3.239E+01 -1.713E-01  1.141E-02                                 E1317017   16
+  3.743E+01 -1.689E-01  1.385E-02                                 E1317017   17
+  4.095E+01  3.404E-02  8.961E-03                                 E1317017   18
+  4.503E+01  3.845E-01  1.222E-02                                 E1317017   19
+  5.151E+01  5.605E-01  1.956E-02                                 E1317017   20
+  5.873E+01  4.757E-01  9.779E-03                                 E1317017   21
+  6.475E+01  4.007E-01  1.711E-02                                 E1317017   22
+  7.044E+01  2.996E-01  1.467E-02                                 E1317017   23
+  7.438E+01  2.124E-01  2.200E-02                                 E1317017   24
+  7.864E+01  1.423E-01  3.097E-02                                 E1317017   25
+  8.303E+01  1.178E-01  4.075E-02                                 E1317017   26
+  9.249E+01  6.483E-01  4.808E-02                                 E1317017   27
+  1.045E+02  9.221E-01  5.461E-02                                 E1317017   28
+  1.155E+02  1.008E+00  6.112E-02                                 E1317017   29
+  1.241E+02  8.837E-01  1.027E-01                                 E1317017   30
+ENDDATA             19                                            E1317017   31
+ENDSUBENT           30                                            E131701799999
+ENDENTRY             3                                            E131799999999

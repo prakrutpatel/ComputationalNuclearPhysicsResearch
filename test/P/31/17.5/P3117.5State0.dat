@@ -1,0 +1,57 @@
+ENTRY            C0828   20080129   20080305   20080228       C083
+SUBENT        C0828001   20080129   20080305   20080228       C083
+BIB                 11         16
+INSTITUTE  (1USAPTN)
+REFERENCE  (J,PR,167,1070,196803)
+           (J,PL,19,(3),228,1965)
+           (T,CRAWLEY,1965)
+AUTHOR     (G.M.CRAWLEY)
+TITLE      Inelastic Proton Scattering in the 2s1d Shell
+FACILITY   (CYCLO,1USAPTN)
+METHOD     (BCINT)
+DETECTOR   (SILI) Four Si(Li) detectors.
+CORRECTION CoRrected for counting losses in analyzer.
+ERR-ANALYS (ERR-T) Absolute uncertainty.
+           (ERR-1) Relative uncertainties given.
+STATUS     Data scanned from tables in thesis.
+           No reply to author proof from G.M. Crawley.
+HISTORY    (20010802C) VM
+           (20080128A) SD. References were added.
+ENDBIB              16
+COMMON               3          3
+EN         EN-ERR     EN-RSL-FW
+MEV        MEV        KEV
+ 17.5        0.05      30.
+ENDCOMMON            3
+ENDSUBENT           23
+SUBENT        C0828018   20010803   20011130   20050926       0000
+BIB                  3          5
+REACTION   (15-P-31(P,EL)15-P-31,,DA)
+SAMPLE     Red phosphorus target.  Heavy impurity, probably iron,
+            showed up at forward angles.
+MONITOR    (12-MG-0(N,EL)12-MG-0,,DA) Slurry of Mg2P2O7 (magnesium
+            pyrophosphate used for absolute normalization.
+ENDBIB               5
+COMMON               1          3
+ERR-T
+PER-CENT
+ 10.
+ENDCOMMON            3
+DATA                 3         12
+ANG-CM     DATA-CM    ERR-1
+ADEG       MB/SR      MB/SR
+  30.9     241.         12.
+  36.1      33.9         1.7
+  41.2       8.5         0.5
+  51.1      38.0         2.3
+  56.5      57.9         3.5
+  61.6      66.6         3.3
+  71.8      43.0         2.6
+  76.8      30.5         1.8
+  81.9      17.5         1.1
+  91.9       8.7         0.5
+ 101.9       7.5         0.5
+ 121.6       9.0         0.5
+ENDDATA             14
+ENDSUBENT           28
+ENDENTRY             2

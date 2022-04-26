@@ -1,0 +1,72 @@
+ENTRY            C0893   20020924   20030331   20050926       0000
+SUBENT        C0893001   20020924   20030331   20050926       0000
+BIB                 12         16
+INSTITUTE  (1USADKE,1USATNL)
+REFERENCE  (T,VARNER,1986)
+            Data presented in Phys.Reports 201, 57 (1991)
+AUTHOR     (R.Varner)
+TITLE      A parameterization of the nucleon-nucleus Optical
+            Model potential
+FACILITY   (VDGT,1USATNL)
+INC-SOURCE (LAMB). Average beam polarization 80%.
+INC-SPECT  Absolute energy uncertainty <50 keV.
+METHOD     (BCINT)
+DETECTOR   (SOLST)
+           Polarimeter used plastic scintillators.
+MONITOR    Beam polarization monitored using 4He(p,p)4He reaction.
+STATUS     Data received by email from R. Varner, 19 August 2002.
+           No reply received from R. Varner to author proof.
+HISTORY    (20020819C) VM
+ENDBIB              16
+COMMON               1          3
+EN
+MEV
+ 16.
+ENDCOMMON            3
+ENDSUBENT           23
+SUBENT        C0893005   20020820   20030331   20050926       0000
+BIB                  3          5
+REACTION   (22-TI-48(P,EL)22-TI-48,,POL/DA,,ANA)
+SAMPLE     Self-supporting target enriched to 99% 48Ti; thickness
+            349 microg/cm2.
+ERR-ANALYS (ERR-S) Statistical uncertainty given.
+            Normalization uncertainty 4%.
+ENDBIB               5
+NOCOMMON             0          0
+DATA                 3         31
+ANG-CM     DATA       ERR-S
+ADEG       NO-DIM     NO-DIM
+  20.4     -0.0163     0.0099
+  25.5      0.0049     0.0098
+  30.6      0.0691     0.0099
+  35.7      0.1488     0.0099
+  40.8      0.1534     0.0101
+  45.9      0.0236     0.0099
+  50.9     -0.1479     0.0101
+  56.0     -0.3220     0.0099
+  61.1     -0.5035     0.0109
+  66.1     -0.7078     0.0101
+  71.2     -0.9241     0.0107
+  76.2     -0.5838     0.0110
+  81.2      0.8134     0.0122
+  86.2      0.6588     0.0115
+  91.2      0.2763     0.0105
+  96.2     -0.0208     0.0103
+ 101.2     -0.2622     0.0103
+ 106.2     -0.4622     0.0101
+ 111.2     -0.6474     0.0107
+ 116.1     -0.7803     0.0110
+ 121.1     -0.8500     0.0115
+ 126.0     -0.6708     0.0124
+ 130.9      0.0121     0.0157
+ 135.9      0.5507     0.0124
+ 140.8      0.3456     0.0118
+ 145.7      0.2958     0.0119
+ 150.6      0.3520     0.0123
+ 155.5      0.5293     0.0104
+ 160.4      0.6488     0.0107
+ 165.3      0.7249     0.0102
+ 170.2      0.6286     0.0108
+ENDDATA             33
+ENDSUBENT           43
+ENDENTRY             2

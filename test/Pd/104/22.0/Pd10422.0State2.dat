@@ -1,0 +1,109 @@
+ENTRY            O0581   20030428              20050926       0000
+SUBENT        O0581001   20030428              20050926       0000
+BIB                 13         37
+TITLE      Proton scattering on A=92-116 nuclei with extended
+           optical models and the interacting boson approximation.
+AUTHOR     (E.Cereda, M.Pignanelli, S.Micheletti, H.V.Von Geramb,
+           M.N.Harakeh, R.De Leo, G.D'Erasmo, A.Pantaleo)
+INSTITUTE  (2ITYMIL)
+           (2GERHAM)
+           (2NEDNED).Kernfysics versneller institute,
+            Rijksuniversity Groningen
+           (2ITYBAU)
+REFERENCE  (J,PR/C,26,1941,1982)
+           (J,NP/A,396,281,1983) Proceedings of conference.
+HISTORY    (19990921C)
+           (20030428U) Last checking has been done.
+SAMPLE     The isotopic enrichment of the target nuclei was
+           generally between 96 and 98% except for Cd-106 (90.8%)
+           and Pd-106 (75.5%).  The areal density of the targets
+           was estimated by weighing and measuring the energy loss
+           of alpha particles emitted by an Am-241 source.
+ADD-RES    (COMP).Optical model and coupled channels analysis.
+           Interacting bosons approximation.
+           (POT)
+           (STRUC)
+DETECTOR   (TELES) Telescopes made by 2000 and 5000-mum detectors.
+           (SIBAR) Three surface barrier silicon detectors, 3000-
+           mum thick.
+           The overall energy resolution was of the order of 40-
+           KeV.
+FACILITY   (CYCLO,2ITYMIL) The AVF Milan cyclotron.
+METHOD     (SITA)
+ERR-ANALYS The estimated uncertainty in target thickness is of the
+           order of 5-7%.
+           The absolute cross section uncertainty is less 10%.
+STATUS     (CURVE).By CAJAD.
+COMMENT    - By compiler. The authors did not give level energies.
+           Therefore compiler attempted to find suitable levels in
+           ENSDF.  The attempts were fruitless in some cases,
+           where level number is given.
+ENDBIB              37
+COMMON               1          3
+ANG-ERR
+ADEG
+        0.6
+ENDCOMMON            3
+ENDSUBENT           44
+SUBENT        O0581055   20030428              20050926       0000
+BIB                  4          5
+REACTION   (46-PD-104(P,INL)46-PD-104,PAR,DA) Fig.20
+EN-SEC     (E-LVL,46-PD-104) Unresolved triplet 0+/2+/4+
+LEVEL-PROP (46-PD-104,E-LVL=1.323,SPIN=0.,PARITY=+1.) 1.323-1.341.
+ERR-ANALYS (ERR-DIG) .Data-point reader uncertainty.
+           (ERR-T).The uncertainty is shown by authors on figure
+ENDBIB               5
+COMMON               3          3
+EN         E-LVL      ERR-DIG
+MEV        MEV        PER-CENT
+       22.3      1.323        2.3
+ENDCOMMON            3
+DATA                 3         43
+ANG-CM     DATA-CM    ERR-T
+ADEG       MB/SR      PER-CENT
+       21.6      1.208
+       25.1       1.29
+       28.1       1.31
+       32.4      1.272
+       36.2       1.07
+       39.2      1.005
+       42.1      0.709
+       45.5      0.587
+       47.1      0.376
+       51.4      0.316
+       57.3      0.242
+       61.3      0.303
+       71.1      0.309
+       74.1      0.285
+       78.4      0.268
+       81.8      0.199
+       84.3      0.157
+       87.7      0.134
+       91.5     0.1039
+        95.    9.6E-02        11.
+       97.5   9.31E-02        2.8
+       101.     0.1043
+      104.4      0.113
+      107.5      0.126         5.
+      111.4      0.133
+      113.9      0.142
+       116.      0.112        10.
+      119.9     0.1067
+      123.3   9.11E-02
+      127.2    9.3E-02        11.
+      130.6   8.71E-02         3.
+       134.   8.19E-02
+      137.4   7.94E-02
+      140.9   8.89E-02
+      144.3   8.09E-02
+       147.     0.1028
+      151.2     0.1013
+      155.1     0.1064
+      157.3      0.121
+      160.3      0.129
+      163.8     0.1272
+      167.2     0.1158
+      169.7      0.109        16.
+ENDDATA             45
+ENDSUBENT           59
+ENDENTRY             2

@@ -1,0 +1,6 @@
+#Element name
+#Glob value i.e True, False or Weppner
+#Ground State i.e 0.00    0+
+#Z
+#A
+#Spin

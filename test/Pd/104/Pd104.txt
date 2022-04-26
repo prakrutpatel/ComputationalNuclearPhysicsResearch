@@ -1,0 +1,6 @@
+Pd104
+True
+0.00    0+
+46
+104
+Vibrational

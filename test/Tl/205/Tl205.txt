@@ -1,0 +1,6 @@
+Tl205
+True
+0.50    0+
+81
+205
+Rotational

@@ -1,0 +1,129 @@
+ENTRY            O1198   20080106   20080407   20080403       O034
+SUBENT        O1198001   20080106   20080407   20080403       O034
+BIB                 13         74
+TITLE      Proton elastic scattering on light nuclei-nuclear
+           structure effects.
+AUTHOR     (E.Fabrici, S.Micheletti, M.Pignanelli, F.G.Resmini,
+           R.De Leo, G.D'Erasmo, A.Pantaleo)
+INSTITUTE  (2ITYMIL)
+           (2ITYBAU)
+REFERENCE  (J,PR/C,21,844,1980)
+           (J,PR/C,21,830,1980) It is O1199 and details of
+           experiments.
+SAMPLE     Both solid and gas targets were used. Gaseous targets
+           allow greater precision in the determination of the
+           values of the target density and therefore of the
+           relative cross sections for different nuclei. For this
+           reason gaseous targets were used whenever possible-14
+           nuclei- while for other nuclei self-supporting metal
+           foils of uniform thickness were utilized. When solid
+           targets in this form were not available or were too
+           difficult to obtain, chemical compounds deposited on a
+           plastic film were used. In cases 14-nuclei usually
+           obtained cross section values relative to some other
+           nucleus, generally O-16, contained in the chemical
+           compound. A plastic film of moplefan (C(3)H(4))N,
+           which does not contain oxygen, was used backing. The
+           isotopic enrichment was generally more than 90%. For
+           some nuclei-O-17, Si-30, Ca-42,43, Ti-47,50, Fe-58 and
+           Zn-67 the enrichment was smaller but the percentage of
+           the various isotopes contained in the target was known.
+           In these cases several targets were used, as many as
+           the isotopes studied but with a different isotope
+           content. In two cases, those B and Cl-targets
+           containing the natural isotope mixture were used.
+ADD-RES    (COMP).Optical model and coupled-channel analysis.
+DETECTOR   (TELES,SIBAR) Silicon surface-barrier, stacked in two
+           or three counter telescopes.
+INC-SPECT  *En-rsl* the overall energy resolution, which includes
+            the counter resolution, the incident beam energy
+            spread, the kinematic broadening and the effect of
+            target thickness, varied from 70 to 100-keV depending
+            mainly on target thickness.
+FACILITY   (CYCLO,2ITYMIL) The Milan sector-focused cyclotron.
+METHOD     (EDE)
+           (BCINT)
+ERR-ANALYS The uncertainty in the cross section for each point in
+           the angular distribution is due to statistical and
+           systematic errors. Counting statistics give sizeable
+           contributions only at backward angles. For elastic
+           scattering the statistical error is generally smaller
+           than 4% even in the minima of the angular distributions
+           at backward angles. Systematic errors results from
+           several causes. The absolute uncertainties due to beam
+           current integration and dead time corrections are very
+           small being of the order of 0.2% and less than 1%,
+           respectively. The error due to the uncertainty in the
+           determination of solid angles reaches a maximum value
+           of the order of 1.5% for solid and 3% for gaseous
+           targets. The uncertainty in the measurement of target
+           thickness and uniformity is of order of 3-8% and for
+           most solid targets constitutes the largest source of
+           error. The effective thickness of gas target is
+           proportional to N*D*SINQ, the uncertainty in N-the
+           number of nuclei cm**3-is estimated to be approximately
+            1%, while the contributions coming from D-the width
+           of the front slit-and Q-the scattering angle are
+           already included in the 3% error mentioned above for
+           the solid angle of gaseous targets. The overall
+           systematic errors are therefore smaller for these
+           targets than for solid ones. At small angles other
+           systematic errors may be present. In fact the
+           extraction of the scattering yields is generally
+           straightforward except for elastic peaks at forward
+           angles, where events produced by contaminants or other
+           nuclei present in the target have to be separated.
+STATUS     (TABLE).The data are taken from INFN-78.
+HISTORY    (20071207C) SB
+ENDBIB              74
+COMMON               1          3
+EN-RSL
+KEV
+       100.
+ENDCOMMON            3
+ENDSUBENT           81
+SUBENT        O1198024   20080106   20080407   20080403       O034
+BIB                  4          4
+REACTION   (10-NE-20(P,INL)10-NE-20,PAR,DA)
+EN-SEC     (E-LVL,10-NE-20)
+LEVEL-PROP (10-NE-20,E-LVL=1.63,SPIN=2.,PARITY=+1.)
+ERR-ANALYS (ERR-S).The uncertainty is reported in table.
+ENDBIB               4
+COMMON               2          3
+E-LVL      EN
+MEV        MEV
+1.63       35.2
+ENDCOMMON            3
+DATA                 3         27
+ANG-CM     DATA-CM    ERR-S
+ADEG       MB/SR      PER-CENT
+21.00000   25.60000
+27.29000   23.50000
+33.04000   19.70000
+38.78000   14.10000
+44.98000   7.83000
+51.20000   4.12000    2.60000
+57.40000   3.22000    3.10000
+63.58000   3.46000    3.10000
+69.75000   3.63000    3.10000
+72.76000   3.50000    2.60000
+78.87000   2.90000    2.10000
+84.45000   1.98000    2.40000
+90.00000   1.55000    2.70000
+95.86000   1.02000    3.30000
+101.86000  0.79000    3.80000
+107.84000  0.62000    4.30000
+113.79000  0.49000    4.70000
+119.71000  0.34000    5.60000
+125.37000  0.29000    4.30000
+131.23000  0.21000    4.90000
+137.08000  0.19000    4.80000
+142.90000  0.21000    4.40000
+148.71000  0.19000    4.30000
+154.22000  0.20000    3.90000
+159.49000  0.16000    3.80000
+164.75000  0.11000    4.40000
+170.51000  0.05800    6.60000
+ENDDATA             29
+ENDSUBENT           42
+ENDENTRY             2

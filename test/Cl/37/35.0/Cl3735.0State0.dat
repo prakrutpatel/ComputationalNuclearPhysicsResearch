@@ -1,0 +1,64 @@
+SUBENT        O0083001     950223          D                      O0083001    1
+BIB                 12         18                                 O0083001    2
+TITLE      SYSTEMATICAL 'ANOMALOUS' FEATURES OF PROTON ELASTIC    O0083001    3
+           SCATTERING RELATED TO SHELL STRUCTURE.                 O0083001    4
+AUTHOR     (E.COLOMBO,R.DE LEO,J.L.ESCUDIE,E.FABRICI,S.MICHELETTI,O0083001    5
+           M.PIGNANELLI,F.RESMINI)                                O0083001    6
+INSTITUTE  (2ITYMIL)                                              O0083001    7
+           (2ITYBAU)                                              O0083001    8
+           (2FR SAC)                                              O0083001    9
+REFERENCE  (C,77TOKYO,,543,77).PUBLISHED AS JPJ SUPPL.,44,543,78. O0083001   10
+HISTORY    (950222C)                                              O0083001   11
+           (950320U)                                              O0083001   12
+SAMPLE     .NO INFORMATION AVAILABLE.                             O0083001   13
+DETECTOR   .NO INFORMATION AVAILABLE.                             O0083001   14
+FACILITY   (CYCLO,2ITYMIL)                                        O0083001   15
+METHOD     ANY INFORMATION IS ABSENT.                             O0083001   16
+ADD-RES    (COMP).OPTICAL MODEL.                                  O0083001   17
+STATUS     (CURVE).BY CAJAD.                                      O0083001   18
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0083001   19
+           (DATA-ERR).DATA-POINT READER UNCERTAINTY.              O0083001   20
+ENDBIB              18                                            O0083001   21
+NOCOMMON             0          0                                 O0083001   22
+ENDSUBENT           21                                            O008300199999
+SUBENT        O0083012     950223                                 O0083012    1
+BIB                  1          1                                 O0083012    2
+REACTION   (17-CL-37(P,EL)17-CL-37,,DA,,,EXP)                     O0083012    3
+ENDBIB               1                                            O0083012    4
+COMMON               3          3                                 O0083012    5
+EN         ANG-ERR    DATA-ERR                                    O0083012    6
+MEV        ADEG       PER-CENT                                    O0083012    7
+       35.2        0.6        2.1                                 O0083012    8
+ENDCOMMON            3                                            O0083012    9
+DATA                 2         25                                 O0083012   10
+ANG-CM     DATA                                                   O0083012   11
+ADEG       MB/SR                                                  O0083012   12
+       34.7       61.6                                            O0083012   13
+       40.4      100.8                                            O0083012   14
+       44.3       81.7                                            O0083012   15
+       52.2        45.                                            O0083012   16
+       58.4       16.9                                            O0083012   17
+       63.8        7.6                                            O0083012   18
+       70.2         8.                                            O0083012   19
+       74.2       7.96                                            O0083012   20
+       79.7       6.83                                            O0083012   21
+       83.6       4.78                                            O0083012   22
+       91.5       3.09                                            O0083012   23
+       97.7       1.47                                            O0083012   24
+      103.2      0.983                                            O0083012   25
+      109.6       0.92                                            O0083012   26
+      117.6      0.835                                            O0083012   27
+      121.5      0.592                                            O0083012   28
+      126.9      0.295                                            O0083012   29
+      133.2     0.1404                                            O0083012   30
+      138.8      0.179                                            O0083012   31
+      145.3      0.315                                            O0083012   32
+       151.      0.598                                            O0083012   33
+       155.       0.65                                            O0083012   34
+       159.      0.647                                            O0083012   35
+       163.       0.59                                            O0083012   36
+      166.7       0.21                                            O0083012   37
+ENDDATA             27                                            O0083012   38
+ENDSUBENT           37                                            O008301299999
+ENDENTRY             2                                            O008399999999
+ENDREQUEST           1                                            Z999999999999

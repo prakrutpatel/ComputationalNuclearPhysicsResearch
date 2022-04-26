@@ -1,0 +1,6 @@
+Sm154
+True
+0.00    0+
+62
+154
+Rotational

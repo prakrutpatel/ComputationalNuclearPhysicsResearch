@@ -1,0 +1,6 @@
+Sm140
+True
+0.00    0+
+78
+140
+Rotational

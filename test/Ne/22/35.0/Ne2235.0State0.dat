@@ -1,0 +1,68 @@
+REQUEST         472001   20070711          3     163000               0  0    0
+ENTRY            O0083     950223          D                      O0083000    1
+SUBENT        O0083001     950223          D                      O0083001    1
+BIB                 12         18                                 O0083001    2
+TITLE      SYSTEMATICAL 'ANOMALOUS' FEATURES OF PROTON ELASTIC    O0083001    3
+           SCATTERING RELATED TO SHELL STRUCTURE.                 O0083001    4
+AUTHOR     (E.COLOMBO,R.DE LEO,J.L.ESCUDIE,E.FABRICI,S.MICHELETTI,O0083001    5
+           M.PIGNANELLI,F.RESMINI)                                O0083001    6
+INSTITUTE  (2ITYMIL)                                              O0083001    7
+           (2ITYBAU)                                              O0083001    8
+           (2FR SAC)                                              O0083001    9
+REFERENCE  (C,77TOKYO,,543,77).PUBLISHED AS JPJ SUPPL.,44,543,78. O0083001   10
+HISTORY    (950222C)                                              O0083001   11
+           (950320U)                                              O0083001   12
+SAMPLE     .NO INFORMATION AVAILABLE.                             O0083001   13
+DETECTOR   .NO INFORMATION AVAILABLE.                             O0083001   14
+FACILITY   (CYCLO,2ITYMIL)                                        O0083001   15
+METHOD     ANY INFORMATION IS ABSENT.                             O0083001   16
+ADD-RES    (COMP).OPTICAL MODEL.                                  O0083001   17
+STATUS     (CURVE).BY CAJAD.                                      O0083001   18
+ERR-ANALYS (ANG-ERR).DATA-POINT READER UNCERTAINTY.               O0083001   19
+           (DATA-ERR).DATA-POINT READER UNCERTAINTY.              O0083001   20
+ENDBIB              18                                            O0083001   21
+NOCOMMON             0          0                                 O0083001   22
+ENDSUBENT           21                                            O008300199999
+SUBENT        O0083018     950223                                 O0083018    1
+BIB                  1          1                                 O0083018    2
+REACTION   (10-NE-22(P,EL)10-NE-22,,DA,,RTH,EXP)                  O0083018    3
+ENDBIB               1                                            O0083018    4
+COMMON               3          3                                 O0083018    5
+EN         ANG-ERR    DATA-ERR                                    O0083018    6
+MEV        ADEG       PER-CENT                                    O0083018    7
+       35.2        0.6        2.3                                 O0083018    8
+ENDCOMMON            3                                            O0083018    9
+DATA                 2         27                                 O0083018   10
+ANG-CM     DATA                                                   O0083018   11
+ADEG       NO-DIM                                                 O0083018   12
+       20.5       8.05                                            O0083018   13
+       27.9       8.78                                            O0083018   14
+       33.3       4.93                                            O0083018   15
+       37.4       2.86                                            O0083018   16
+        45.       5.35                                            O0083018   17
+       50.9      10.03                                            O0083018   18
+       59.7       12.4                                            O0083018   19
+        64.      10.53                                            O0083018   20
+       68.1       7.27                                            O0083018   21
+       72.3       5.52                                            O0083018   22
+        79.        3.4                                            O0083018   23
+       85.1       3.72                                            O0083018   24
+       89.5       4.34                                            O0083018   25
+       93.8       4.32                                            O0083018   26
+      102.4       3.65                                            O0083018   27
+      106.6       2.81                                            O0083018   28
+      113.4       2.03                                            O0083018   29
+      119.3       1.38                                            O0083018   30
+      126.1      1.168                                            O0083018   31
+      130.9       1.18                                            O0083018   32
+      136.4      0.985                                            O0083018   33
+      143.4      1.145                                            O0083018   34
+      147.6      0.884                                            O0083018   35
+      153.7      0.966                                            O0083018   36
+      157.9      0.745                                            O0083018   37
+      164.7      0.538                                            O0083018   38
+      170.4      0.242                                            O0083018   39
+ENDDATA             29                                            O0083018   40
+ENDSUBENT           39                                            O008301899999
+ENDENTRY             2                                            O008399999999
+ENDREQUEST           1                                            Z999999999999

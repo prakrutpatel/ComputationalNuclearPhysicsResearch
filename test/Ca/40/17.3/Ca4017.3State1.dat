@@ -1,0 +1,74 @@
+ENTRY            O0384     970728              20050926       0000
+SUBENT        O0384001     970728              20050926       0000
+BIB                 12         20
+TITLE      Inelastic Proton Scattering Ar-40 and Ca-40.
+AUTHOR     (W.S.GRAY,R.A.KENEFICK,J.J.KRAUSHAAR)
+INSTITUTE  (1USACLU) Department of Physics and Astrophysics.
+REFERENCE  (J,NP,67,542,65)
+HISTORY    (970721C)
+           (970728U) Last checking has been done.
+ADD-RES    (COMP).DWBA Analysis. Optical Model Calculations.
+           (P-SPC)
+           (STRUC)
+           (POT)
+PART-DET   (P)
+DETECTOR   (SOLST).The Surface Barrier Semiconductor Spectrometer.
+           One  Lithium  Drifted Detector was Used. All Detectors
+           Had a Dead Layer on the Front Surface of Less Than 1
+           Mum Thick.
+FACILITY   (CYCLO,1USACLU).Four-Sector (FFAG) Cyclotron.
+METHOD     (EXTB)
+           (BCINT)
+ERR-ANALYS (ANG-ERR).Data-Point Reader Uncertainty.
+STATUS     (CURVE).By CAJAD.
+ENDBIB              20
+NOCOMMON
+ENDSUBENT           23
+SUBENT        O0384010     970728              20050926       0000
+BIB                  4         11
+REACTION   (20-CA-40(P,INL)20-CA-40,PAR,DA,,,EXP) Fig.9a, Top.
+EN-SEC     (E-LVL,20-CA-40)
+SAMPLE     The Calcium Target were Prepared by Evaporating
+           Natural Mettallic Calcium onto an Aluminium Backing
+           Under Vacuum.When the Calcium had Accumulated to
+           Convenient Thicknesses (MORE THAN 1 MG/CM**2) It Could
+           Easily be Peeled Off the Backing As a Smooth Foil and
+           Storage of the Target in Vacuum Immediately After
+           Mounting Considerably Reduced the Oxygen Contamination.
+ERR-ANALYS (ERR-T).The Uncertainty is Reported by Authors.
+           (DATA-ERR).Data-Point Reader Uncertainty.
+ENDBIB              11
+COMMON               4          3
+EN         E-LVL      ANG-ERR    DATA-ERR
+MEV        MEV        ADEG       PER-CENT
+       17.3       3.73        0.5         2.
+ENDCOMMON            3
+DATA                 3         23
+ANG-CM     DATA       ERR-T
+ADEG       MB/SR      PER-CENT
+       25.7        5.9        40.
+       30.7        6.3        11.
+       35.7        6.3         6.
+       40.8       5.98         3.
+       45.4       6.37         4.
+       49.7        6.7         4.
+       55.8       7.15
+       60.9       6.74
+        67.       6.67         4.
+        71.       6.36         4.
+       76.8       5.78         4.
+       81.5       5.12         3.
+       86.6        4.6         3.
+        92.       4.13         4.
+       96.7       3.66         4.
+      101.8       3.58         4.
+      106.9       3.29         6.
+      112.2       3.64         4.
+      117.2       3.92         6.
+      121.2       3.27         4.
+       131.       3.01         5.
+      141.1       3.03         4.
+      151.8       3.31         5.
+ENDDATA             25
+ENDSUBENT           45
+ENDENTRY             2

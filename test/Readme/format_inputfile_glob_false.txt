@@ -1,0 +1,19 @@
+#Element name
+#Glob value i.e True or False
+#Ground state i.e 0.00    0+
+#Z
+#A
+#Spin
+#E_f
+#v values separated by ',' ex 0,61.6,0.0072,0.000018,7e-9
+#w values separated by ','
+#d values separated by ','
+#v_so values separated by ','
+#w_so values separated by ','
+#R_c
+#R_v
+#A_v
+#R_d
+#A_d
+#R_so
+#A_so

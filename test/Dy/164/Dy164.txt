@@ -1,0 +1,6 @@
+Dy164
+True
+0.00    0+
+66
+164
+Rotational

@@ -1,0 +1,6 @@
+Pt194
+True
+0.00    0+
+78
+194
+Rotational

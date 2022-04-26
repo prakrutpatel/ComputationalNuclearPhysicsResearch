@@ -1,0 +1,77 @@
+ENTRY            O0545   19991117   20030923   20050926       0000
+SUBENT        O0545001   19991117   20030923   20050926       0000
+BIB                 11         27
+TITLE      Analysis of Proton Scattering from Zr-92 and Zr-94
+           At 19.4 MeV.
+AUTHOR     (M.M.STAUTBERG,J.J.KRAUSHAAR)
+INSTITUTE  (1USACLU)
+REFERENCE  (J,PR,151,969,1966)
+HISTORY    (19990810C)
+           (19990824U) Last checking has been done.
+           (19991117A) DATE is corrected
+SAMPLE     The Targets were Highly Enriched Self-Supporting Foils
+           Having a Thickness of 0.87 mg/cm**2 For Zn-92 and
+            0.92 mg/cm**2 For Zr-94.
+           For the Calculation of the Inelastic Cross Sections the
+           Enrichments were Assumed to be the Highest Available
+           From Oak Ridge,Namely 95.7% For Zr-92 and 97.9% For
+           Zr-94.
+ADD-RES    (COMP).Optical Model Analysis For Elastic Cross Section
+           And Distorted-Wave Theory For the Inelastic Angular
+           Distributions.
+           (STRUC)
+           (POT)
+DETECTOR   (SOLST).A Single Silicon Surface-Barrier Detector with
+           An Area of 0.5 cm**2 was Placed at a Distance of 5.85-
+           Inchs from Target.
+FACILITY   (CYCLO,1USACLU).52-In. Fixed-Field Alternating-Gradient
+           Cyclotron.
+METHOD     (SITA)
+STATUS     (CURVE).By CAJAD.
+ENDBIB              27
+COMMON               1          3
+EN
+MEV
+       19.4
+ENDCOMMON            3
+ENDSUBENT           34
+SUBENT        O0545007   19991117   20030923   20050926       0000
+BIB                  4          9
+REACTION   (40-ZR-94(P,INL)40-ZR-94,PAR,DA)
+EN-SEC     (E-LVL,40-ZR-94)
+LEVEL-PROP (40-ZR-94,E-LVL=0.92,SPIN=2.,PARITY=+1.)
+           (40-ZR-94,E-LVL=1.66,SPIN=2.,PARITY=+1.)
+           (40-ZR-94,E-LVL=2.34,SPIN=2.,PARITY=+1.)
+           (40-ZR-94,E-LVL=2.05,SPIN=3.,PARITY=-1.)
+           (40-ZR-94,E-LVL=1.47,SPIN=4.,PARITY=+1.)
+           (40-ZR-94,E-LVL=2.60,SPIN=5.,PARITY=-1.)
+ERR-ANALYS (ERR-T).The Uncertainty is Shown by Authors on Figures.
+ENDBIB               9
+NOCOMMON
+DATA                 4        21
+ANG-CM     E-LVL      DATA-CM    ERR-T
+ADEG       MEV        MB/SR      PER-CENT
+        20.       1.47       0.92       100.
+        25.       1.47       0.42        80.
+        30.       1.47       0.59        21.
+        35.       1.47       0.46        20.
+        40.       1.47       0.52         8.
+        45.       1.47      0.456         6.
+        50.       1.47      0.399         8.
+        55.       1.47      0.306         6.
+        65.       1.47      0.154         7.
+        70.       1.47      0.194         8.
+        75.       1.47      0.107        12.
+        85.       1.47      0.066        15.
+        90.       1.47      0.057        12.
+        95.       1.47       0.05        10.
+       100.       1.47      0.043         9.
+       105.       1.47      0.024        17.
+       110.       1.47      0.024        17.
+       125.       1.47       0.02        20.
+       135.       1.47     0.0159        11.
+       140.       1.47      0.027        15.
+       145.       1.47      0.019        21.
+ENDDATA            250
+ENDSUBENT          264
+ENDENTRY             2
